@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="CaboGuest">
+  <rect width="32" height="32" rx="8" fill="#0B1014"/>
+  <path d="M23.2 8.6c-1.7-1.8-4.2-2.9-7.1-2.9C10.2 5.7 6.6 10 6.6 16s3.6 10.3 9.5 10.3c2.9 0 5.4-1.1 7.1-2.9" fill="none" stroke="#EBE6DC" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M16.2 15.1h8.6" stroke="#6A9A96" stroke-width="2.8" stroke-linecap="round"/>
+</svg>

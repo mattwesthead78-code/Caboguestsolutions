@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0b1014;
+  --color-surface: #141b21;
+  --color-raised: #1c252d;
+  --color-fg: #ebe6dc;
+  --color-muted: #9a9386;
+  --color-subtle: #6e685e;
+  --color-accent: #7aa3a0;
+  --color-accent-fg: #0b1014;
+  --color-border: color-mix(in oklab, var(--color-fg) 14%, transparent);
+  --color-border-strong: color-mix(in oklab, var(--color-fg) 26%, transparent);
+  --color-danger: #c45b4a;
+
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+
+  --shadow-border: 0 0 0 1px color-mix(in oklab, var(--color-fg) 10%, transparent);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent) 40%, transparent);
+    color: var(--color-fg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.hairline {
+  box-shadow: var(--shadow-border);
+}
+
+.img-frame {
+  outline: 1px solid color-mix(in oklab, var(--color-fg) 12%, transparent);
+  outline-offset: -1px;
+}
