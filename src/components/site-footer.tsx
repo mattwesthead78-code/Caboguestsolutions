@@ -1,18 +1,24 @@
 import { Link } from "@tanstack/react-router";
-import { contacts, nav } from "@/lib/content";
+import { BrandLogo } from "@/components/brand-logo";
+import { androidApkUrl, contacts, nav } from "@/lib/content";
 
 export function SiteFooter() {
   return (
     <footer className="border-t border-border bg-bg">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 md:grid-cols-12 md:px-8">
         <div className="md:col-span-5">
-          <p className="font-display text-3xl font-medium tracking-tight">
-            CaboGuest
-          </p>
-          <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
+          <BrandLogo />
+          <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
             Bespoke guest apps for luxury hotels, villas, restaurants, yachts,
             spas, and boutiques in Los Cabos.
           </p>
+          <a
+            href={androidApkUrl}
+            download="CaboGuestSolutions.apk"
+            className="mt-5 inline-block text-sm text-fg underline decoration-border underline-offset-4 hover:decoration-fg"
+          >
+            Download the Android app
+          </a>
         </div>
         <div className="md:col-span-3">
           <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-subtle">

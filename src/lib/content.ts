@@ -1,3 +1,8 @@
+export const androidApkUrl =
+  "https://raw.githubusercontent.com/mattwesthead78-code/Caboguestsolutions/main/attachments/CaboGuestSolutions_v3.apk";
+
+export const androidApkLocal = "/downloads/CaboGuestSolutions.apk";
+
 export const company = {
   name: "CaboGuest Solutions",
   short: "CaboGuest",
@@ -10,6 +15,7 @@ export const company = {
     "High-end businesses deserve software that reflects their brand's elegance. We don't ship generic templates — we design custom, zero-friction mobile ecosystems that streamline the guest experience, lift staff efficiency, and drive revenue.",
   engineering:
     "We engineer native Android and iOS applications for luxury hotels, fine dining, tour operators, retail boutiques, wellness spas, and bespoke VIP services. Every UI token, typeface, layout, and logo is matched to the property.",
+  slogan: "Premium hospitality. Exceptional experiences.",
 } as const;
 
 export const contacts = [
@@ -409,7 +415,7 @@ export const nav = [
   { to: "/", label: "Home" },
   { to: "/platform", label: "Platform" },
   { to: "/work", label: "Work" },
+  { to: "/app", label: "App" },
   { to: "/about", label: "About" },
-  { to: "/studio", label: "Studio" },
   { to: "/contact", label: "Contact" },
 ] as const;

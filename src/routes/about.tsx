@@ -8,8 +8,8 @@ function About() {
   return (
     <SiteShell>
       <PageIntro
-        kicker="Studio"
-        title="A small studio for properties that already know who they are."
+        kicker="About"
+        title="A small team for properties that already know who they are."
         lede={company.mission}
       />
 

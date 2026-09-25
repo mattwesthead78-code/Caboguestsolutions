@@ -31,16 +31,16 @@ function Home() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              to="/work"
+              to="/app"
               className="inline-flex min-h-11 items-center rounded-full bg-fg px-5 text-sm font-medium text-bg transition-transform duration-150 active:scale-[0.96]"
             >
-              Try a guest flow
+              Download the app
             </Link>
             <Link
-              to="/contact"
+              to="/work"
               className="inline-flex min-h-11 items-center rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)] transition-transform duration-150 active:scale-[0.96]"
             >
-              Request a proposal
+              Try a guest flow
             </Link>
           </div>
         </div>
@@ -234,12 +234,20 @@ function Home() {
             Fabi and Matt work directly with owners and GMs. WhatsApp is the
             fastest door in.
           </p>
-          <Link
-            to="/contact"
-            className="mt-8 inline-flex min-h-11 items-center rounded-full bg-fg px-5 text-sm font-medium text-bg"
-          >
-            Contact CaboGuest
-          </Link>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link
+              to="/app"
+              className="inline-flex min-h-11 items-center rounded-full bg-fg px-5 text-sm font-medium text-bg"
+            >
+              Download the app
+            </Link>
+            <Link
+              to="/contact"
+              className="inline-flex min-h-11 items-center rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)]"
+            >
+              Contact CaboGuest
+            </Link>
+          </div>
         </div>
       </section>
     </SiteShell>

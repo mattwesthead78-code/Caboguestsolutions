@@ -59,6 +59,15 @@ function AppDownload() {
                 <Download className="size-4" />
                 Download Android APK
               </a>
+              <p className="mt-3">
+                <a
+                  href={androidApkLocal}
+                  download="CaboGuestSolutions.apk"
+                  className="text-xs text-muted underline decoration-border underline-offset-4 hover:text-fg"
+                >
+                  Download from this site
+                </a>
+              </p>
               <p className="mt-4 text-xs leading-relaxed text-subtle">
                 iOS builds are delivered per property. Message Fabi or Matt if
                 you need a TestFlight or branded iPhone suite.
