@@ -1,15 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageIntro, SiteShell } from "@/components/site-shell";
-import { company, contacts, process } from "@/lib/content";
+import { useCopy } from "@/lib/use-copy";
 
 export const Route = createFileRoute("/about")({ component: About });
 
 function About() {
+  const { t, company, contacts, process } = useCopy();
+
   return (
     <SiteShell>
       <PageIntro
-        kicker="About"
-        title="A small team for properties that already know who they are."
+        kicker={t("page.about.kicker")}
+        title={t("page.about.title")}
         lede={company.mission}
       />
 
@@ -26,12 +28,10 @@ function About() {
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
         <div className="grid gap-10 md:grid-cols-12">
           <h2 className="font-display text-3xl font-medium tracking-tight md:col-span-4 md:text-4xl">
-            Native software. Local taste.
+            {t("page.about.native")}
           </h2>
           <p className="text-base leading-relaxed text-muted md:col-span-8 md:text-lg">
-            {company.engineering} Based in Cabo San Lucas, we sit close to the
-            properties we serve — close enough to watch a turnover, taste the
-            menu, and see how a guest actually uses a phone at the pool.
+            {company.engineering} {t("page.about.close")}
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ function About() {
       <section className="border-y border-border">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-            Co-founders
+            {t("page.about.founders")}
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {contacts.map((c) => (
@@ -69,7 +69,7 @@ function About() {
 
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
         <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-          Approach
+          {t("page.about.approach")}
         </p>
         <div className="mt-8 grid gap-10 md:grid-cols-3">
           {process.map((step) => (

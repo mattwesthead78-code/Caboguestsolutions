@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from "react";
-import { contacts, inquiryChips, industries } from "@/lib/content";
+import { contacts } from "@/lib/content";
+import { useCopy } from "@/lib/use-copy";
 import { Button } from "@/components/ui/button";
 import { Input, Label, Textarea } from "@/components/ui/field";
 import { cn } from "@/lib/utils";
@@ -7,6 +8,7 @@ import { cn } from "@/lib/utils";
 const STORAGE_KEY = "caboguest-inquiries";
 
 export function InquiryForm() {
+  const { t, industries, inquiryChips } = useCopy();
   const [name, setName] = useState("");
   const [property, setProperty] = useState("");
   const [category, setCategory] = useState(industries[0].id);
@@ -43,12 +45,11 @@ export function InquiryForm() {
     return (
       <div className="rounded-3xl bg-surface p-8 shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_10%,transparent)]">
         <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-accent">
-          Inquiry received
+          {t("form.received")}
         </p>
-        <h3 className="mt-3 font-display text-3xl font-medium">We'll be in touch.</h3>
+        <h3 className="mt-3 font-display text-3xl font-medium">{t("form.touch")}</h3>
         <p className="mt-3 max-w-md text-sm leading-relaxed text-muted">
-          Saved on this device. Open WhatsApp to send it to Fabi or Matt now —
-          the fastest way to start a build.
+          {t("form.saved")}
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           {contacts.map((c) => (
@@ -61,7 +62,7 @@ export function InquiryForm() {
             </a>
           ))}
           <Button type="button" variant="outline" onClick={() => setSent(false)}>
-            Send another
+            {t("cta.sendAnother")}
           </Button>
         </div>
       </div>
@@ -72,7 +73,7 @@ export function InquiryForm() {
     <form onSubmit={onSubmit} className="space-y-5">
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <Label htmlFor="name">Your name</Label>
+          <Label htmlFor="name">{t("form.name")}</Label>
           <Input
             id="name"
             required
@@ -83,7 +84,7 @@ export function InquiryForm() {
           />
         </div>
         <div>
-          <Label htmlFor="property">Property or brand</Label>
+          <Label htmlFor="property">{t("form.property")}</Label>
           <Input
             id="property"
             required
@@ -95,7 +96,7 @@ export function InquiryForm() {
       </div>
 
       <div>
-        <Label>Business type</Label>
+        <Label>{t("form.type")}</Label>
         <div className="flex flex-wrap gap-2">
           {industries.map((ind) => (
             <button
@@ -116,7 +117,7 @@ export function InquiryForm() {
       </div>
 
       <div>
-        <Label htmlFor="message">What do you need</Label>
+        <Label htmlFor="message">{t("form.need")}</Label>
         <div className="mb-3 flex flex-wrap gap-2">
           {inquiryChips.map((chip) => (
             <button
@@ -134,12 +135,12 @@ export function InquiryForm() {
           required
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Describe your business needs, custom features, or request an app demo…"
+          placeholder={t("form.placeholder")}
         />
       </div>
 
       <Button type="submit" className="w-full sm:w-auto">
-        Send inquiry
+        {t("cta.sendInquiry")}
       </Button>
     </form>
   );

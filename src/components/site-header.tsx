@@ -2,12 +2,14 @@ import { useState } from "react";
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
 import { BrandLogo } from "@/components/brand-logo";
-import { nav } from "@/lib/content";
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { useCopy } from "@/lib/use-copy";
 import { cn } from "@/lib/utils";
 
 export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
   const [open, setOpen] = useState(false);
   const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const { t, nav } = useCopy();
 
   return (
     <header
@@ -16,7 +18,7 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
         inverted ? "text-fg" : "text-fg",
       )}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-5 py-5 md:px-8">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-5 md:gap-6 md:px-8">
         <BrandLogo onClick={() => setOpen(false)} />
 
         <nav className="hidden items-center gap-7 lg:flex">
@@ -40,17 +42,18 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
           })}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5 sm:gap-3">
+          <LanguageSwitcher />
           <Link
             to="/app"
             className="hidden min-h-10 items-center rounded-full bg-fg px-4 text-[12px] font-medium uppercase tracking-[0.16em] text-bg transition-transform duration-150 active:scale-[0.96] md:inline-flex"
           >
-            Get the app
+            {t("cta.getApp")}
           </Link>
           <button
             type="button"
             className="inline-flex size-11 items-center justify-center rounded-full lg:hidden"
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={open ? t("chrome.menuClose") : t("chrome.menuOpen")}
             onClick={() => setOpen((v) => !v)}
           >
             {open ? <X className="size-5" /> : <Menu className="size-5" />}
@@ -64,16 +67,19 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
           open ? "flex" : "hidden",
         )}
       >
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-3">
           <BrandLogo onClick={() => setOpen(false)} />
-          <button
-            type="button"
-            className="inline-flex size-11 items-center justify-center"
-            aria-label="Close menu"
-            onClick={() => setOpen(false)}
-          >
-            <X className="size-5" />
-          </button>
+          <div className="flex items-center gap-1">
+            <LanguageSwitcher />
+            <button
+              type="button"
+              className="inline-flex size-11 items-center justify-center"
+              aria-label={t("chrome.menuClose")}
+              onClick={() => setOpen(false)}
+            >
+              <X className="size-5" />
+            </button>
+          </div>
         </div>
         <nav className="mt-12 flex flex-col gap-6">
           {nav.map((item) => (
@@ -88,7 +94,7 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
           ))}
         </nav>
         <p className="mt-auto pb-10 text-sm text-muted">
-          Cabo San Lucas · Native Android & iOS
+          {t("company.eyebrow")}
         </p>
       </div>
     </header>

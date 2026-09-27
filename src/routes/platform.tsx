@@ -1,16 +1,19 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageIntro, SiteShell } from "@/components/site-shell";
-import { integrations, modules } from "@/lib/content";
+import { integrations } from "@/lib/content";
+import { useCopy } from "@/lib/use-copy";
 
 export const Route = createFileRoute("/platform")({ component: Platform });
 
 function Platform() {
+  const { t, modules } = useCopy();
+
   return (
     <SiteShell>
       <PageIntro
-        kicker="Platform"
-        title="A guest engine, dressed as your brand."
-        lede="Nine production modules. Mix them for a villa, a cliffside restaurant, a marina boutique, or a private yacht. Every pixel is yours."
+        kicker={t("page.platform.kicker")}
+        title={t("page.platform.title")}
+        lede={t("page.platform.lede")}
       />
 
       <section className="mx-auto max-w-6xl px-5 pb-8 md:px-8">
@@ -50,10 +53,10 @@ function Platform() {
       <section className="border-t border-border">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-            Integrations
+            {t("page.platform.integrations")}
           </p>
           <h2 className="mt-3 font-display text-3xl font-medium md:text-4xl">
-            Locks, payments, and messaging already in the building.
+            {t("page.platform.locks")}
           </h2>
           <ul className="mt-8 flex flex-wrap gap-2">
             {integrations.map((item) => (

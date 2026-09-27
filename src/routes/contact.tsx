@@ -1,17 +1,19 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { InquiryForm } from "@/components/inquiry-form";
 import { PageIntro, SiteShell } from "@/components/site-shell";
-import { contacts } from "@/lib/content";
+import { useCopy } from "@/lib/use-copy";
 
 export const Route = createFileRoute("/contact")({ component: Contact });
 
 function Contact() {
+  const { t, contacts } = useCopy();
+
   return (
     <SiteShell>
       <PageIntro
-        kicker="Contact"
-        title="Start with a conversation, not a ticket."
-        lede="Reach Fabi or Matt on WhatsApp, or send an inquiry. Tell us the property, the guest journey, and what the current stack cannot do."
+        kicker={t("page.contact.kicker")}
+        title={t("page.contact.title")}
+        lede={t("page.contact.lede")}
       />
 
       <section className="mx-auto max-w-6xl px-5 pb-20 md:px-8">
@@ -44,8 +46,7 @@ function Contact() {
               ))}
             </ul>
             <p className="mt-6 text-sm text-muted">
-              Cabo San Lucas, Baja California Sur · Typically replies the same
-              day.
+              {t("page.contact.replies")}
             </p>
           </div>
           <div className="lg:col-span-7">

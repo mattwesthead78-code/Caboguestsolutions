@@ -2,11 +2,12 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { PhoneSimulator } from "@/components/phone-simulator";
 import { SiteShell } from "@/components/site-shell";
-import { company, industries, modules, process } from "@/lib/content";
+import { useCopy } from "@/lib/use-copy";
 
 export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
+  const { t, company, industries, modules, process } = useCopy();
   const featured = industries[0];
   const rest = industries.slice(1);
 
@@ -34,13 +35,13 @@ function Home() {
               to="/app"
               className="inline-flex min-h-11 items-center rounded-full bg-fg px-5 text-sm font-medium text-bg transition-transform duration-150 active:scale-[0.96]"
             >
-              Download the app
+              {t("cta.downloadApp")}
             </Link>
             <Link
               to="/work"
               className="inline-flex min-h-11 items-center rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)] transition-transform duration-150 active:scale-[0.96]"
             >
-              Try a guest flow
+              {t("cta.tryFlow")}
             </Link>
           </div>
         </div>
@@ -48,11 +49,11 @@ function Home() {
 
       <section className="border-y border-border">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-10 gap-y-3 px-5 py-5 text-[11px] font-medium uppercase tracking-[0.18em] text-muted md:px-8">
-          <span>Native Android & iOS</span>
-          <span>BLE · NFC · QR keys</span>
-          <span>WhatsApp concierge</span>
-          <span>EN / ES</span>
-          <span>Full whitelabel</span>
+          <span>{t("home.ticker1")}</span>
+          <span>{t("home.ticker2")}</span>
+          <span>{t("home.ticker3")}</span>
+          <span>{t("home.ticker4")}</span>
+          <span>{t("home.ticker5")}</span>
         </div>
       </section>
 
@@ -60,17 +61,17 @@ function Home() {
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <div>
             <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-              We build apps for
+              {t("home.buildFor")}
             </p>
             <h2 className="mt-3 max-w-xl font-display text-4xl font-medium tracking-tight md:text-5xl">
-              Six kinds of property. One guest engine.
+              {t("home.sixKinds")}
             </h2>
           </div>
           <Link
             to="/work"
             className="inline-flex items-center gap-2 text-sm text-muted hover:text-fg"
           >
-            See live presets <ArrowRight className="size-4" />
+            {t("cta.seePresets")} <ArrowRight className="size-4" />
           </Link>
         </div>
 
@@ -156,10 +157,10 @@ function Home() {
       <section className="border-t border-border bg-surface/40">
         <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-            Platform
+            {t("home.platformKicker")}
           </p>
           <h2 className="mt-3 max-w-2xl font-display text-4xl font-medium tracking-tight md:text-5xl">
-            Modules you actually run, not a catalog of maybe.
+            {t("home.modulesTitle")}
           </h2>
           <ol className="mt-12 divide-y divide-border">
             {modules.slice(0, 6).map((mod) => (
@@ -183,7 +184,7 @@ function Home() {
             to="/platform"
             className="mt-8 inline-flex items-center gap-2 text-sm text-muted hover:text-fg"
           >
-            Full platform <ArrowRight className="size-4" />
+            {t("cta.fullPlatform")} <ArrowRight className="size-4" />
           </Link>
         </div>
       </section>
@@ -195,10 +196,10 @@ function Home() {
       <section className="border-t border-border">
         <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-            How we work
+            {t("home.how")}
           </p>
           <h2 className="mt-3 max-w-xl font-display text-4xl font-medium tracking-tight md:text-5xl">
-            Built around the property, not the other way around.
+            {t("home.around")}
           </h2>
           <div className="mt-12 grid gap-8 md:grid-cols-3">
             {process.map((step) => (
@@ -225,27 +226,26 @@ function Home() {
         <div className="absolute inset-0 bg-bg/70" />
         <div className="relative mx-auto max-w-6xl px-5 py-24 md:px-8 md:py-32">
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-            Next
+            {t("home.next")}
           </p>
           <h2 className="mt-3 max-w-2xl font-display text-4xl font-medium tracking-tight md:text-6xl">
-            Tell us about the stay you want to run.
+            {t("home.stay")}
           </h2>
           <p className="mt-4 max-w-lg text-base text-fg/80">
-            Fabi and Matt work directly with owners and GMs. WhatsApp is the
-            fastest door in.
+            {t("home.whatsapp")}
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               to="/app"
               className="inline-flex min-h-11 items-center rounded-full bg-fg px-5 text-sm font-medium text-bg"
             >
-              Download the app
+              {t("cta.downloadApp")}
             </Link>
             <Link
               to="/contact"
               className="inline-flex min-h-11 items-center rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)]"
             >
-              Contact CaboGuest
+              {t("cta.contact")}
             </Link>
           </div>
         </div>

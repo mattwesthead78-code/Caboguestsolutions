@@ -2,7 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useMemo } from "react";
 import { PhoneSimulator } from "@/components/phone-simulator";
 import { PageIntro, SiteShell } from "@/components/site-shell";
-import { demos, industries, type IndustryId } from "@/lib/content";
+import { industries as industryCatalog, type IndustryId } from "@/lib/content";
+import { useCopy } from "@/lib/use-copy";
 import { cn } from "@/lib/utils";
 
 type WorkSearch = {
@@ -12,7 +13,7 @@ type WorkSearch = {
 export const Route = createFileRoute("/work")({
   validateSearch: (search: Record<string, unknown>): WorkSearch => {
     const industry = search.industry;
-    const match = industries.find((i) => i.id === industry);
+    const match = industryCatalog.find((i) => i.id === industry);
     return { industry: match?.id };
   },
   component: Work,
@@ -21,20 +22,21 @@ export const Route = createFileRoute("/work")({
 function Work() {
   const { industry } = Route.useSearch();
   const navigate = Route.useNavigate();
+  const { t, industries, demos } = useCopy();
   const active = industry ?? "hotel";
 
   const current = useMemo(
     () => industries.find((i) => i.id === active) ?? industries[0],
-    [active],
+    [active, industries],
   );
   const demo = demos.find((d) => d.industryId === current.id) ?? demos[0];
 
   return (
     <SiteShell>
       <PageIntro
-        kicker="Work"
-        title="Production presets, not mockups."
-        lede="These are the kinds of businesses we ship for in Los Cabos. Open a vertical, then run the guest flow we built for it."
+        kicker={t("page.work.kicker")}
+        title={t("page.work.title")}
+        lede={t("page.work.lede")}
       />
 
       <section className="mx-auto max-w-6xl px-5 pb-10 md:px-8">
@@ -75,7 +77,7 @@ function Work() {
               </p>
               <p className="mt-5 text-sm text-fg">{current.suite}</p>
               <p className="mt-6 text-[11px] uppercase tracking-[0.16em] text-subtle">
-                Sample property
+                {t("page.work.sample")}
               </p>
               <p className="mt-1 font-display text-xl">{current.sample}</p>
             </div>

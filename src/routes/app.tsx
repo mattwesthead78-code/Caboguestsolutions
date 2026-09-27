@@ -3,17 +3,20 @@ import { Download, Smartphone, ShieldCheck, Languages } from "lucide-react";
 import { PhoneSimulator } from "@/components/phone-simulator";
 import { BrandLockup } from "@/components/brand-logo";
 import { PageIntro, SiteShell } from "@/components/site-shell";
-import { androidApkLocal, androidApkUrl, company, modules } from "@/lib/content";
+import { androidApkLocal, androidApkUrl } from "@/lib/content";
+import { useCopy } from "@/lib/use-copy";
 
 export const Route = createFileRoute("/app")({ component: AppDownload });
 
 function AppDownload() {
+  const { t, company, modules } = useCopy();
+
   return (
     <SiteShell>
       <PageIntro
-        kicker="The guest app"
-        title="Install CaboGuest on Android."
-        lede="The same multi-business suite we build for hotels, villas, restaurants, yachts, spas, and boutiques. Download the Android package, then try the guest flows below."
+        kicker={t("page.app.kicker")}
+        title={t("page.app.title")}
+        lede={t("page.app.lede")}
       />
 
       <section className="mx-auto max-w-6xl px-5 pb-16 md:px-8">
@@ -27,28 +30,26 @@ function AppDownload() {
           <div className="lg:col-span-7">
             <div className="rounded-[1.75rem] bg-surface p-7 md:p-9">
               <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-accent">
-                Android
+                {t("page.app.android")}
               </p>
               <h2 className="mt-3 font-display text-3xl font-medium tracking-tight">
                 CaboGuest Solutions v3
               </h2>
               <p className="mt-3 max-w-lg text-sm leading-relaxed text-muted">
-                Sideload the APK on an Android phone. After install, open it and
-                walk the live demos — keys, dining, concierge, charters, retail,
-                and spa.
+                {t("page.app.body")}
               </p>
               <ul className="mt-6 space-y-3 text-sm text-muted">
                 <li className="flex gap-3">
                   <Smartphone className="mt-0.5 size-4 shrink-0 text-accent" />
-                  Native Android package · min API 24
+                  {t("page.app.bullet1")}
                 </li>
                 <li className="flex gap-3">
                   <ShieldCheck className="mt-0.5 size-4 shrink-0 text-accent" />
-                  Whitelabel engine with BLE / NFC keys and WhatsApp concierge
+                  {t("page.app.bullet2")}
                 </li>
                 <li className="flex gap-3">
                   <Languages className="mt-0.5 size-4 shrink-0 text-accent" />
-                  English and Spanish throughout
+                  {t("page.app.bullet3")}
                 </li>
               </ul>
               <a
@@ -57,7 +58,7 @@ function AppDownload() {
                 className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-full bg-fg px-6 text-sm font-medium text-bg transition-transform duration-150 active:scale-[0.96]"
               >
                 <Download className="size-4" />
-                Download Android APK
+                {t("cta.downloadAndroid")}
               </a>
               <p className="mt-3">
                 <a
@@ -65,12 +66,11 @@ function AppDownload() {
                   download="CaboGuestSolutions.apk"
                   className="text-xs text-muted underline decoration-border underline-offset-4 hover:text-fg"
                 >
-                  Download from this site
+                  {t("cta.downloadHere")}
                 </a>
               </p>
               <p className="mt-4 text-xs leading-relaxed text-subtle">
-                iOS builds are delivered per property. Message Fabi or Matt if
-                you need a TestFlight or branded iPhone suite.
+                {t("page.app.ios")}
               </p>
             </div>
           </div>
@@ -85,7 +85,7 @@ function AppDownload() {
 
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
         <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-          Inside the package
+          {t("page.app.inside")}
         </p>
         <ol className="mt-8 divide-y divide-border">
           {modules.slice(0, 6).map((mod) => (

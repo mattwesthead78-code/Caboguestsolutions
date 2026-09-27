@@ -1,20 +1,22 @@
 import { useMemo, useState } from "react";
 import { Check, ChevronRight, KeyRound, Sparkles } from "lucide-react";
-import { demos, type DemoPreset } from "@/lib/content";
+import { type DemoPreset } from "@/lib/content";
+import { useCopy } from "@/lib/use-copy";
 import { cn } from "@/lib/utils";
 
 export function PhoneSimulator({
-  initialId = demos[0].id,
+  initialId,
 }: {
   initialId?: string;
 }) {
-  const [presetId, setPresetId] = useState(initialId);
+  const { t, demos } = useCopy();
+  const [presetId, setPresetId] = useState(initialId ?? demos[0].id);
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState<string | null>(null);
 
   const preset = useMemo(
     () => demos.find((d) => d.id === presetId) ?? demos[0],
-    [presetId],
+    [demos, presetId],
   );
 
   function runAction(presetLocal: DemoPreset, actionId: string) {
@@ -32,14 +34,13 @@ export function PhoneSimulator({
     <div className="grid items-start gap-8 lg:grid-cols-[1fr_minmax(280px,340px)] lg:gap-12">
       <div>
         <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-          Interactive guest flow
+          {t("sim.kicker")}
         </p>
         <h2 className="mt-3 font-display text-4xl font-medium tracking-tight md:text-5xl">
-          Tap through a stay.
+          {t("sim.title")}
         </h2>
         <p className="mt-4 max-w-md text-base leading-relaxed text-muted">
-          Each property runs the same engine, dressed in its own brand. Choose a
-          preset and run the guest actions we ship in production.
+          {t("sim.lede")}
         </p>
 
         <div className="mt-8 flex flex-wrap gap-2">
@@ -89,7 +90,7 @@ export function PhoneSimulator({
               <div className="mt-4 flex items-center justify-between rounded-xl bg-raised px-3 py-2.5">
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.14em] text-subtle">
-                    Guest
+                    {t("sim.guest")}
                   </p>
                   <p className="text-sm">{preset.guest}</p>
                 </div>
