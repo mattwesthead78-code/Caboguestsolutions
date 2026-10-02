@@ -6,7 +6,7 @@ import appCss from "../styles.css?url";
 
 const APP_NAME = "CaboGuest Solutions";
 const APP_DESC =
-  "Bespoke native guest apps for luxury hotels, villas, restaurants, yachts, spas, and boutiques in Cabo San Lucas.";
+  "CaboGuest builds HostalPro for hostels, inns, and small hotels — then tailors it to the property. Not a public download.";
 
 export const Route = createRootRoute({
   head: () => ({

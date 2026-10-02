@@ -8,18 +8,16 @@ export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
   const { t, company, industries, modules, process } = useCopy();
-  const featured = industries[0];
-  const rest = industries.slice(1);
 
   return (
     <SiteShell>
       <section className="relative min-h-[100svh] overflow-hidden">
         <img
           src="/images/hero.jpg"
-          alt="Oceanfront villa infinity pool in Cabo San Lucas at blue hour"
+          alt="Oceanfront stay in Cabo San Lucas at blue hour"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/55 to-bg/25" />
+        <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/55 to-bg/20" />
         <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-16 pt-28 md:px-8 md:pb-20">
           <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-fg/80">
             {company.eyebrow}
@@ -32,138 +30,99 @@ function Home() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              to="/app"
+              to="/contact"
               className="inline-flex min-h-11 items-center rounded-full bg-fg px-5 text-sm font-medium text-bg transition-transform duration-150 active:scale-[0.96]"
             >
-              {t("cta.downloadApp")}
+              {t("cta.talk")}
             </Link>
             <Link
               to="/work"
               className="inline-flex min-h-11 items-center rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)] transition-transform duration-150 active:scale-[0.96]"
             >
-              {t("cta.tryFlow")}
+              {t("cta.walkthrough")}
             </Link>
           </div>
         </div>
       </section>
 
-      <section className="border-y border-border">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-10 gap-y-3 px-5 py-5 text-[11px] font-medium uppercase tracking-[0.18em] text-muted md:px-8">
-          <span>{t("home.ticker1")}</span>
-          <span>{t("home.ticker2")}</span>
-          <span>{t("home.ticker3")}</span>
-          <span>{t("home.ticker4")}</span>
-          <span>{t("home.ticker5")}</span>
+      <section className="mx-auto grid max-w-6xl gap-12 px-5 py-20 md:grid-cols-2 md:px-8 md:py-28">
+        <div>
+          <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
+            {t("home.baseKicker")}
+          </p>
+          <h2 className="mt-3 font-display text-4xl font-medium tracking-tight md:text-5xl">
+            {t("home.baseTitle")}
+          </h2>
+          <p className="mt-5 text-base leading-relaxed text-muted">
+            {t("home.baseBody")}
+          </p>
+        </div>
+        <div className="md:pt-11">
+          <h3 className="font-display text-3xl font-medium tracking-tight">
+            {t("home.bespokeTitle")}
+          </h3>
+          <p className="mt-5 text-base leading-relaxed text-muted">
+            {t("home.bespokeBody")}
+          </p>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
-        <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
-          <div>
-            <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-              {t("home.buildFor")}
-            </p>
-            <h2 className="mt-3 max-w-xl font-display text-4xl font-medium tracking-tight md:text-5xl">
-              {t("home.sixKinds")}
-            </h2>
-          </div>
-          <Link
-            to="/work"
-            className="inline-flex items-center gap-2 text-sm text-muted hover:text-fg"
-          >
-            {t("cta.seePresets")} <ArrowRight className="size-4" />
-          </Link>
-        </div>
-
-        <div className="mt-12 grid gap-4 lg:grid-cols-12">
-          <Link
-            to="/work"
-            search={{ industry: featured.id }}
-            className="group relative min-h-[380px] overflow-hidden rounded-[1.75rem] lg:col-span-7 lg:min-h-[520px]"
-          >
-            <img
-              src={featured.image}
-              alt={featured.imageAlt}
-              className="img-frame absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/20 to-transparent" />
-            <div className="absolute inset-x-0 bottom-0 p-6 md:p-8">
-              <p className="text-[11px] uppercase tracking-[0.18em] text-accent">
-                {featured.kicker}
-              </p>
-              <h3 className="mt-2 font-display text-3xl font-medium md:text-4xl">
-                {featured.name}
-              </h3>
-              <p className="mt-2 max-w-md text-sm leading-relaxed text-fg/80">
-                {featured.description}
-              </p>
-            </div>
-          </Link>
-
-          <div className="grid gap-4 lg:col-span-5">
-            {rest.slice(0, 2).map((ind) => (
-              <Link
+      <section className="border-t border-border">
+        <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-24">
+          <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
+            {t("home.whoKicker")}
+          </p>
+          <h2 className="mt-3 max-w-2xl font-display text-4xl font-medium tracking-tight md:text-5xl">
+            {t("home.whoTitle")}
+          </h2>
+          <div className="mt-12 grid gap-4 md:grid-cols-3">
+            {industries.map((ind) => (
+              <article
                 key={ind.id}
-                to="/work"
-                search={{ industry: ind.id }}
-                className="group relative min-h-[200px] overflow-hidden rounded-[1.5rem]"
+                className="overflow-hidden rounded-[1.5rem] bg-surface"
               >
                 <img
                   src={ind.image}
                   alt={ind.imageAlt}
-                  className="img-frame absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+                  className="img-frame h-44 w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/25 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 p-5">
+                <div className="p-6">
                   <p className="text-[11px] uppercase tracking-[0.16em] text-accent">
-                    {ind.short}
+                    {ind.kicker}
                   </p>
-                  <h3 className="mt-1 font-display text-2xl font-medium">
+                  <h3 className="mt-2 font-display text-2xl font-medium">
                     {ind.name}
                   </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted">
+                    {ind.description}
+                  </p>
                 </div>
-              </Link>
+              </article>
             ))}
           </div>
-        </div>
-
-        <div className="mt-4 grid gap-4 sm:grid-cols-3">
-          {rest.slice(2).map((ind) => (
-            <Link
-              key={ind.id}
-              to="/work"
-              search={{ industry: ind.id }}
-              className="group relative min-h-[220px] overflow-hidden rounded-[1.5rem]"
-            >
-              <img
-                src={ind.image}
-                alt={ind.imageAlt}
-                className="img-frame absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/30 to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 p-5">
-                <p className="text-[11px] uppercase tracking-[0.16em] text-accent">
-                  {ind.short}
-                </p>
-                <h3 className="mt-1 font-display text-xl font-medium">
-                  {ind.name}
-                </h3>
-              </div>
-            </Link>
-          ))}
         </div>
       </section>
 
       <section className="border-t border-border bg-surface/40">
         <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
-          <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-            {t("home.platformKicker")}
-          </p>
-          <h2 className="mt-3 max-w-2xl font-display text-4xl font-medium tracking-tight md:text-5xl">
-            {t("home.modulesTitle")}
-          </h2>
+          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <div>
+              <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
+                {t("home.modulesKicker")}
+              </p>
+              <h2 className="mt-3 max-w-xl font-display text-4xl font-medium tracking-tight md:text-5xl">
+                {t("home.modulesTitle")}
+              </h2>
+            </div>
+            <Link
+              to="/platform"
+              className="inline-flex items-center gap-2 text-sm text-muted hover:text-fg"
+            >
+              {t("home.modulesLink")} <ArrowRight className="size-4" />
+            </Link>
+          </div>
           <ol className="mt-12 divide-y divide-border">
-            {modules.slice(0, 6).map((mod) => (
+            {modules.slice(0, 4).map((mod) => (
               <li
                 key={mod.id}
                 className="grid gap-3 py-6 md:grid-cols-12 md:items-baseline"
@@ -180,12 +139,6 @@ function Home() {
               </li>
             ))}
           </ol>
-          <Link
-            to="/platform"
-            className="mt-8 inline-flex items-center gap-2 text-sm text-muted hover:text-fg"
-          >
-            {t("cta.fullPlatform")} <ArrowRight className="size-4" />
-          </Link>
         </div>
       </section>
 
@@ -199,7 +152,7 @@ function Home() {
             {t("home.how")}
           </p>
           <h2 className="mt-3 max-w-xl font-display text-4xl font-medium tracking-tight md:text-5xl">
-            {t("home.around")}
+            {t("home.howTitle")}
           </h2>
           <div className="mt-12 grid gap-8 md:grid-cols-3">
             {process.map((step) => (
@@ -219,33 +172,31 @@ function Home() {
 
       <section className="relative overflow-hidden">
         <img
-          src="/images/villa.jpg"
-          alt="Villa living room looking out to an infinity pool"
+          src="/images/hotel.jpg"
+          alt="A quiet corridor in a Los Cabos stay"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-bg/70" />
+        <div className="absolute inset-0 bg-bg/75" />
         <div className="relative mx-auto max-w-6xl px-5 py-24 md:px-8 md:py-32">
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
             {t("home.next")}
           </p>
           <h2 className="mt-3 max-w-2xl font-display text-4xl font-medium tracking-tight md:text-6xl">
-            {t("home.stay")}
+            {t("home.nextTitle")}
           </h2>
-          <p className="mt-4 max-w-lg text-base text-fg/80">
-            {t("home.whatsapp")}
-          </p>
+          <p className="mt-4 max-w-lg text-base text-fg/80">{t("home.nextBody")}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              to="/app"
+              to="/contact"
               className="inline-flex min-h-11 items-center rounded-full bg-fg px-5 text-sm font-medium text-bg"
             >
-              {t("cta.downloadApp")}
+              {t("cta.talk")}
             </Link>
             <Link
-              to="/contact"
+              to="/platform"
               className="inline-flex min-h-11 items-center rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)]"
             >
-              {t("cta.contact")}
+              {t("cta.software")}
             </Link>
           </div>
         </div>

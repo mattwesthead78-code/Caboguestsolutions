@@ -54,6 +54,7 @@ export function useCopy() {
 
   const localizedDemos: DemoPreset[] = demos.map((demo) => ({
     ...demo,
+    name: t(key(`mod.${demo.id}.name`)),
     tagline: t(key(`demo.${demo.id}.tagline`)),
     guest: t(key(`demo.${demo.id}.guest`)),
     actions: demo.actions.map((action) => ({

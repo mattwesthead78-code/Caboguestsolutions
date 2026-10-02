@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Check, ChevronRight, KeyRound, Sparkles } from "lucide-react";
+import { Check, ChevronRight, ClipboardList } from "lucide-react";
 import { type DemoPreset } from "@/lib/content";
 import { useCopy } from "@/lib/use-copy";
 import { cn } from "@/lib/utils";
@@ -73,7 +73,7 @@ export function PhoneSimulator({
         <div className="relative rounded-[2.4rem] bg-raised p-2 shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_14%,transparent),0_30px_60px_-24px_rgba(0,0,0,0.7)]">
           <div className="overflow-hidden rounded-[1.9rem] bg-bg">
             <div className="flex items-center justify-between px-5 pt-3 text-[10px] text-muted">
-              <span className="tabular-nums">9:41</span>
+              <span className="tabular-nums">7:02</span>
               <span className="mx-auto h-4 w-20 rounded-full bg-raised" />
               <span>LTE</span>
             </div>
@@ -94,7 +94,7 @@ export function PhoneSimulator({
                   </p>
                   <p className="text-sm">{preset.guest}</p>
                 </div>
-                <KeyRound className="size-4 text-accent" />
+                <ClipboardList className="size-4 text-accent" />
               </div>
 
               <div className="mt-4 space-y-2.5">
@@ -106,7 +106,6 @@ export function PhoneSimulator({
                     onClick={() => runAction(preset, action.id)}
                     className="flex w-full items-start gap-3 rounded-xl bg-raised px-3.5 py-3 text-left transition-[background-color,transform] duration-150 hover:bg-surface active:scale-[0.98] disabled:opacity-60"
                   >
-                    <Sparkles className="mt-0.5 size-4 shrink-0 text-accent" />
                     <span className="min-w-0 flex-1">
                       <span className="block text-sm font-medium leading-snug">
                         {action.button}
@@ -123,9 +122,7 @@ export function PhoneSimulator({
               <div
                 className={cn(
                   "mt-4 flex min-h-12 items-start gap-2 rounded-xl px-3 py-2.5 text-[12px] leading-snug transition-[opacity,transform] duration-200 ease-[cubic-bezier(0.22,1,0.36,1)]",
-                  status
-                    ? "bg-accent/15 text-fg opacity-100"
-                    : "opacity-0",
+                  status ? "bg-accent/15 text-fg opacity-100" : "opacity-0",
                 )}
                 aria-live="polite"
               >

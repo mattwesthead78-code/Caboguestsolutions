@@ -45,10 +45,10 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
         <div className="flex items-center gap-1.5 sm:gap-3">
           <LanguageSwitcher />
           <Link
-            to="/app"
+            to="/contact"
             className="hidden min-h-10 items-center rounded-full bg-fg px-4 text-[12px] font-medium uppercase tracking-[0.16em] text-bg transition-transform duration-150 active:scale-[0.96] md:inline-flex"
           >
-            {t("cta.getApp")}
+            {t("cta.talk")}
           </Link>
           <button
             type="button"
@@ -92,6 +92,13 @@ export function SiteHeader({ inverted = false }: { inverted?: boolean }) {
               {item.label}
             </Link>
           ))}
+          <Link
+            to="/contact"
+            onClick={() => setOpen(false)}
+            className="mt-4 inline-flex min-h-12 w-fit items-center rounded-full bg-fg px-5 text-sm font-medium text-bg"
+          >
+            {t("cta.talk")}
+          </Link>
         </nav>
         <p className="mt-auto pb-10 text-sm text-muted">
           {t("company.eyebrow")}

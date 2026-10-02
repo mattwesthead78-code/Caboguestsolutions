@@ -12,15 +12,15 @@ function About() {
       <PageIntro
         kicker={t("page.about.kicker")}
         title={t("page.about.title")}
-        lede={company.mission}
+        lede={t("page.about.lede")}
       />
 
       <section className="mx-auto max-w-6xl px-5 pb-8 md:px-8">
         <div className="overflow-hidden rounded-[1.75rem]">
           <img
             src="/images/hero.jpg"
-            alt="Oceanfront villa at blue hour in Cabo San Lucas"
-            className="img-frame h-[280px] w-full object-cover md:h-[440px]"
+            alt="Cabo San Lucas at blue hour"
+            className="img-frame h-[260px] w-full object-cover md:h-[400px]"
           />
         </div>
       </section>
@@ -28,7 +28,7 @@ function About() {
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
         <div className="grid gap-10 md:grid-cols-12">
           <h2 className="font-display text-3xl font-medium tracking-tight md:col-span-4 md:text-4xl">
-            {t("page.about.native")}
+            {company.slogan}
           </h2>
           <p className="text-base leading-relaxed text-muted md:col-span-8 md:text-lg">
             {company.engineering} {t("page.about.close")}

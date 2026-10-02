@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { BrandLogo } from "@/components/brand-logo";
-import { androidApkUrl, contacts } from "@/lib/content";
+import { contacts } from "@/lib/content";
 import { useCopy } from "@/lib/use-copy";
 
 export function SiteFooter() {
@@ -14,13 +14,6 @@ export function SiteFooter() {
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
             {company.footer}
           </p>
-          <a
-            href={androidApkUrl}
-            download="CaboGuestSolutions.apk"
-            className="mt-5 inline-block text-sm text-fg underline decoration-border underline-offset-4 hover:decoration-fg"
-          >
-            {t("cta.downloadAndroid")}
-          </a>
         </div>
         <div className="md:col-span-3">
           <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-subtle">

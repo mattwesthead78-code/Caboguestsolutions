@@ -22,16 +22,13 @@ function Contact() {
             <div className="overflow-hidden rounded-[1.5rem]">
               <img
                 src="/images/transport.jpg"
-                alt="Luxury SUV at a Cabo resort entrance"
+                alt="Arrival at a Cabo property"
                 className="img-frame h-56 w-full object-cover"
               />
             </div>
             <ul className="mt-6 space-y-4">
               {contacts.map((c) => (
-                <li
-                  key={c.id}
-                  className="rounded-2xl bg-surface p-5"
-                >
+                <li key={c.id} className="rounded-2xl bg-surface p-5">
                   <p className="font-display text-2xl">{c.name}</p>
                   <p className="text-[12px] uppercase tracking-[0.14em] text-muted">
                     {c.role}
@@ -45,9 +42,7 @@ function Contact() {
                 </li>
               ))}
             </ul>
-            <p className="mt-6 text-sm text-muted">
-              {t("page.contact.replies")}
-            </p>
+            <p className="mt-6 text-sm text-muted">{t("page.contact.replies")}</p>
           </div>
           <div className="lg:col-span-7">
             <InquiryForm />
