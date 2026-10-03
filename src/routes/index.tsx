@@ -1,7 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import { PhoneSimulator } from "@/components/phone-simulator";
 import { SiteShell } from "@/components/site-shell";
+import { androidApk } from "@/lib/content";
 import { useCopy } from "@/lib/use-copy";
 
 export const Route = createFileRoute("/")({ component: Home });
@@ -35,36 +36,53 @@ function Home() {
             >
               {t("cta.talk")}
             </Link>
-            <Link
-              to="/work"
-              className="inline-flex min-h-11 items-center rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)] transition-transform duration-150 active:scale-[0.96]"
+            <a
+              href={androidApk.href}
+              download={androidApk.fileName}
+              className="inline-flex min-h-11 items-center gap-2 rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)] transition-transform duration-150 active:scale-[0.96]"
             >
-              {t("cta.walkthrough")}
-            </Link>
+              <Download className="size-4" />
+              {t("cta.download")}
+            </a>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-6xl gap-12 px-5 py-20 md:grid-cols-2 md:px-8 md:py-28">
-        <div>
+      <section className="mx-auto grid max-w-6xl gap-4 px-5 py-20 md:grid-cols-2 md:px-8 md:py-28">
+        <article className="rounded-[1.75rem] bg-surface p-7 md:p-9">
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
-            {t("home.baseKicker")}
+            {t("offer.ops.kicker")}
           </p>
           <h2 className="mt-3 font-display text-4xl font-medium tracking-tight md:text-5xl">
-            {t("home.baseTitle")}
+            {t("offer.ops.title")}
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
-            {t("home.baseBody")}
+            {t("offer.ops.body")}
           </p>
-        </div>
-        <div className="md:pt-11">
-          <h3 className="font-display text-3xl font-medium tracking-tight">
-            {t("home.bespokeTitle")}
-          </h3>
+          <Link
+            to="/platform"
+            className="mt-6 inline-flex items-center gap-2 text-sm text-fg"
+          >
+            {t("offer.ops.link")} <ArrowRight className="size-4" />
+          </Link>
+        </article>
+        <article className="rounded-[1.75rem] bg-surface p-7 md:p-9">
+          <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
+            {t("offer.apps.kicker")}
+          </p>
+          <h2 className="mt-3 font-display text-4xl font-medium tracking-tight md:text-5xl">
+            {t("offer.apps.title")}
+          </h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
-            {t("home.bespokeBody")}
+            {t("offer.apps.body")}
           </p>
-        </div>
+          <Link
+            to="/app"
+            className="mt-6 inline-flex items-center gap-2 text-sm text-fg"
+          >
+            {t("offer.apps.link")} <ArrowRight className="size-4" />
+          </Link>
+        </article>
       </section>
 
       <section className="border-t border-border">
@@ -72,10 +90,10 @@ function Home() {
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
             {t("home.whoKicker")}
           </p>
-          <h2 className="mt-3 max-w-2xl font-display text-4xl font-medium tracking-tight md:text-5xl">
+          <h2 className="mt-3 max-w-3xl font-display text-4xl font-medium tracking-tight md:text-5xl">
             {t("home.whoTitle")}
           </h2>
-          <div className="mt-12 grid gap-4 md:grid-cols-3">
+          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {industries.map((ind) => (
               <article
                 key={ind.id}
@@ -84,7 +102,7 @@ function Home() {
                 <img
                   src={ind.image}
                   alt={ind.imageAlt}
-                  className="img-frame h-44 w-full object-cover"
+                  className="img-frame h-40 w-full object-cover"
                 />
                 <div className="p-6">
                   <p className="text-[11px] uppercase tracking-[0.16em] text-accent">

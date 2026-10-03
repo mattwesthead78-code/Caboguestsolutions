@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageIntro, SiteShell } from "@/components/site-shell";
 import { customizations } from "@/lib/content";
 import { useCopy } from "@/lib/use-copy";
@@ -66,11 +66,11 @@ function Platform() {
             <figure className="mt-8 hidden md:block">
               <img
                 src="/images/towels.png"
-                alt="HostalPro laundry screen counting towels by room"
+                alt="CaboPro laundry screen counting towels by room"
                 className="max-h-52 w-auto rounded-2xl object-contain shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_12%,transparent)]"
               />
               <figcaption className="mt-3 text-[11px] uppercase tracking-[0.16em] text-subtle">
-                HostalPro · laundry
+                {t("page.platform.caption")}
               </figcaption>
             </figure>
           </div>
@@ -84,6 +84,25 @@ function Platform() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      <section className="border-t border-border bg-surface/40">
+        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-16 md:flex-row md:items-end md:justify-between md:px-8">
+          <div className="max-w-xl">
+            <h2 className="font-display text-3xl font-medium tracking-tight md:text-4xl">
+              {t("home.howTitle")}
+            </h2>
+            <p className="mt-4 text-sm leading-relaxed text-muted">
+              {t("company.engineering")}
+            </p>
+          </div>
+          <Link
+            to="/contact"
+            className="inline-flex min-h-11 w-fit items-center rounded-full bg-fg px-5 text-sm font-medium text-bg"
+          >
+            {t("cta.talk")}
+          </Link>
         </div>
       </section>
     </SiteShell>

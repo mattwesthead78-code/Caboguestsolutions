@@ -6,7 +6,7 @@ import appCss from "../styles.css?url";
 
 const APP_NAME = "CaboGuest Solutions";
 const APP_DESC =
-  "CaboGuest builds HostalPro for hostels, inns, and small hotels — then tailors it to the property. Not a public download.";
+  "CaboPro and guest apps for hotels, restaurants, villas, and yachts. Subscription software, hosted for speed, cut to each house.";
 
 export const Route = createRootRoute({
   head: () => ({

@@ -3,7 +3,14 @@ export const company = {
   short: "CaboGuest",
   location: "Cabo San Lucas",
   region: "Los Cabos, Mexico",
-  product: "HostalPro",
+  product: "CaboPro",
+  guestApp: "CaboGuest",
+} as const;
+
+export const androidApk = {
+  href: "/downloads/CaboGuestSolutions_v3.apk",
+  fileName: "CaboGuestSolutions_v3.apk",
+  version: "3.0",
 } as const;
 
 export const contacts = [
@@ -13,7 +20,7 @@ export const contacts = [
     role: "Co-Founder · Technology",
     phone: "+591 64520607",
     wa: "https://wa.me/59164520607",
-    bio: "Builds the software and the integrations. Fabi shapes HostalPro for each property — rooms, roles, payments, and whatever that building still does by notebook.",
+    bio: "Builds CaboPro and the guest apps. Fabi shapes the software for each house — rooms, tables, roles, payments, and the awkward thing you still do on paper.",
   },
   {
     id: "matt",
@@ -21,11 +28,11 @@ export const contacts = [
     role: "Co-Founder · Partnerships",
     phone: "+591 62663652",
     wa: "https://wa.me/59162663652",
-    bio: "Sits with owners and GMs until the day-to-day is clear. Matt makes sure the build matches the desk, not a sales deck.",
+    bio: "Sits with owners and GMs until the day-to-day is honest. Matt makes sure the build matches the desk, not a sales deck.",
   },
 ] as const;
 
-export type IndustryId = "hostel" | "hotel" | "inn";
+export type IndustryId = "hotel" | "restaurant" | "villa" | "yacht";
 
 export type Industry = {
   id: IndustryId;
@@ -41,40 +48,52 @@ export type Industry = {
 
 export const industries: Industry[] = [
   {
-    id: "hostel",
-    name: "Hostels",
-    short: "Hostels",
-    kicker: "Beds, dorms, mixed floors",
-    description:
-      "Shared rooms, private rooms, hallway bathrooms, towels that walk off. HostalPro was built for this shape of building.",
-    image: "/images/hotel.jpg",
-    imageAlt: "Hostel corridor opening toward the sea in Los Cabos",
-    suite: "Bed-level booking, group check-in, housekeeping by room, towel counts.",
-    sample: "A 48-bed hostel with three floors and a shared laundry.",
-  },
-  {
     id: "hotel",
-    name: "Small hotels",
+    name: "Hotels & stays",
     short: "Hotels",
-    kicker: "Private rooms, a real desk",
+    kicker: "Rooms, beds, a real desk",
     description:
-      "Not a 400-key PMS. A hotel that still knows its guests, needs a clean board, a night audit, and payments that don't fight the staff.",
-    image: "/images/villa.jpg",
-    imageAlt: "Small hotel terrace looking out to an infinity pool",
-    suite: "Room status, late checkout, no-shows, cash and card, a close-of-day.",
-    sample: "A 22-room hotel with a breakfast room and two housekeepers.",
+      "Hostels, inns, boutique hotels. CaboPro is the board: who's in, what's dirty, who got paid. Not a 400-key palace system.",
+    image: "/images/hotel.jpg",
+    imageAlt: "Hotel corridor opening toward the sea in Los Cabos",
+    suite: "Room status, check-in, housekeeping, night audit.",
+    sample: "A 22-room hotel with breakfast and two housekeepers.",
   },
   {
-    id: "inn",
-    name: "Inns & guesthouses",
-    short: "Inns",
+    id: "restaurant",
+    name: "Restaurants",
+    short: "Dining",
+    kicker: "Tables, tickets, the pass",
+    description:
+      "Reservations, the floor, who is on, how you take money. Same engine as the hotel desk — cut for a dining room.",
+    image: "/images/dining.jpg",
+    imageAlt: "A set dining table at dusk in Los Cabos",
+    suite: "Covers, staff time, payments, a close of service.",
+    sample: "A 40-cover room with a terrace and two evening shifts.",
+  },
+  {
+    id: "villa",
+    name: "Villas & homes",
+    short: "Villas",
     kicker: "Few keys, many hats",
     description:
-      "The owner is also the night shift. We keep the software small: who's in, what's dirty, who got paid, what the next person needs to know.",
-    image: "/images/hero.jpg",
-    imageAlt: "Guesthouse pool at blue hour in Cabo San Lucas",
-    suite: "Simple board, staff PIN, handover notes, shopping list.",
-    sample: "A nine-room inn run by a couple and one cleaner.",
+      "The owner is often the night shift. We keep it small: who's in, what's due, what the next person needs to know — plus a guest app for the house.",
+    image: "/images/villa.jpg",
+    imageAlt: "Villa terrace looking out to an infinity pool",
+    suite: "Simple board, guest app, staff PIN, handover notes.",
+    sample: "A four-villa compound with a shared pool and a cook.",
+  },
+  {
+    id: "yacht",
+    name: "Yachts & days",
+    short: "Yachts",
+    kicker: "A boat, a clock, a crew",
+    description:
+      "Charters, transfers, a crew that turns around fast. CaboPro holds the day; the guest app holds the briefing, the weather, the next stop.",
+    image: "/images/yacht.jpg",
+    imageAlt: "A day yacht off the Cabo coast",
+    suite: "Bookings, crew time, guest briefing on their phone.",
+    sample: "A six-hour sunset run with a captain and a deckhand.",
   },
 ];
 
@@ -90,34 +109,34 @@ export const modules: Module[] = [
   {
     id: "desk",
     number: "01",
-    name: "Front desk",
+    name: "The desk",
     summary: "Arrive, stay, leave",
     detail:
-      "Book a bed or a room, take a group, check someone in, extend a night, mark a no-show. The board is the building — floors, bathrooms, what's free.",
+      "Book a room, a table, a cabin. Take a group, check someone in, extend a night, mark a no-show. The board is the house — what's free, what's live.",
   },
   {
     id: "rooms",
     number: "02",
-    name: "Rooms & beds",
-    summary: "As they really are",
+    name: "Spaces as they are",
+    summary: "Rooms, tables, cabins",
     detail:
-      "Dorms, private rooms, king or single, ensuite or down the hall. We lay the property out in a setup wizard, then you live on that map.",
+      "Dorms, kings, a terrace, a six-top, a bow cabin. We lay the operation out in a setup, then you live on that map — not a generic grid.",
   },
   {
     id: "cleaning",
     number: "03",
-    name: "Housekeeping",
+    name: "Housekeeping & floor",
     summary: "Dirty, in progress, done",
     detail:
-      "Rooms that need work, arrivals today, towels and soap and sheets on the list. Housekeepers mark a room clean or flag a problem without hunting for a manager.",
+      "Rooms that need work, tables to reset, arrivals today. Staff mark a space ready or flag a problem without hunting for a manager.",
   },
   {
     id: "laundry",
     number: "04",
-    name: "Laundry & towels",
+    name: "Laundry & linen",
     summary: "The things that walk",
     detail:
-      "Towels matched to guests, wash-dry-iron stages, or a ticket to an outside laundry. Small, because this is where hostels lose money quietly.",
+      "Towels, sheets, uniforms. Matched to rooms or a service, wash-dry-iron, or a ticket to an outside laundry. Small, because this is where money leaks.",
   },
   {
     id: "staff",
@@ -125,7 +144,7 @@ export const modules: Module[] = [
     name: "Staff & time",
     summary: "Who is on, and for how long",
     detail:
-      "A PIN to clock in, shifts, hourly rates, payroll summaries. Roles so a cleaner never sees the owner's numbers, and a night clerk can still check someone in.",
+      "A PIN to clock in, shifts, hourly rates, payroll summaries. Roles so a cleaner never sees the owner's numbers, and a night clerk can still take a booking.",
   },
   {
     id: "pay",
@@ -133,23 +152,23 @@ export const modules: Module[] = [
     name: "Money at the desk",
     summary: "Cash, QR, card",
     detail:
-      "PayPal, Stripe, a QR the guest scans, cash in the drawer. Prepaid stays, late checkout fees, payment plans. Whatever you actually take — not a catalog of maybe.",
+      "PayPal, Stripe, a QR the guest scans, cash in the drawer. Deposits, late fees, a split cheque. Whatever you actually take — not a catalog of maybe.",
   },
   {
     id: "channels",
     number: "07",
     name: "The other websites",
-    summary: "Don't sell the same bed twice",
+    summary: "Don't sell the same thing twice",
     detail:
-      "Sync with Hostelworld, Booking.com, and Airbnb so the board and the OTAs agree. We wire the channel you already use; we don't make you live in five calendars.",
+      "Booking.com, Airbnb, OpenTable, the channel you already live on. We wire it so the board and the internet agree.",
   },
   {
     id: "reports",
     number: "08",
     name: "Close of day",
-    summary: "Night audit, reports, handover",
+    summary: "Audit, reports, handover",
     detail:
-      "Occupancy, ADR, who paid, what's still dirty, a note for the morning shift. The day can be closed when the drawer, the rooms, and the issues line up.",
+      "What moved, who paid, what's still dirty, a note for the next shift. The day closes when the drawer, the floor, and the issues line up.",
   },
 ];
 
@@ -174,7 +193,7 @@ export const demos: DemoPreset[] = [
   {
     id: "desk",
     name: "Front desk",
-    place: "HostalPro · Desk",
+    place: "CaboPro · Desk",
     tagline: "A Tuesday morning arrival",
     guest: "Bed 12 · Floor 2",
     actions: [
@@ -197,7 +216,7 @@ export const demos: DemoPreset[] = [
   {
     id: "cleaning",
     name: "Housekeeping",
-    place: "HostalPro · Rooms",
+    place: "CaboPro · Rooms",
     tagline: "Three departures, one arrival at 2",
     guest: "Room 8 · Dirty",
     actions: [
@@ -220,7 +239,7 @@ export const demos: DemoPreset[] = [
   {
     id: "laundry",
     name: "Laundry",
-    place: "HostalPro · Towels",
+    place: "CaboPro · Linen",
     tagline: "Count what left the floor",
     guest: "Floor 2 · 18 out",
     actions: [
@@ -236,7 +255,7 @@ export const demos: DemoPreset[] = [
   {
     id: "staff",
     name: "Staff",
-    place: "HostalPro · Time",
+    place: "CaboPro · Time",
     tagline: "Handover at 7",
     guest: "Maria · Night",
     actions: [
@@ -261,18 +280,18 @@ export const demos: DemoPreset[] = [
 export const process = [
   {
     number: "01",
-    title: "We walk the building",
-    body: "Floors, beds, who does laundry, how you take money, which OTA you actually use. If it's in a notebook, we want to see the notebook.",
+    title: "We sit with how you work",
+    body: "Rooms or tables, who does laundry, how you take money, which site you actually live on. If it's in a notebook, we want the notebook.",
   },
   {
     number: "02",
-    title: "We cut HostalPro to fit",
-    body: "Your name, your language, your roles, your payments. We hide what you don't run. We add the one awkward thing your property can't drop.",
+    title: "We cut CaboPro to that house",
+    body: "Your name, your language, your roles, your payments. We hide what you don't run. We add the awkward piece you can't drop — and a guest app, if you want one.",
   },
   {
     number: "03",
-    title: "We stay for the first messy week",
-    body: "Training on the desk, a WhatsApp line, a named person. The software is live when the night shift can close the day without us in the room.",
+    title: "You subscribe. We host. We stay.",
+    body: "No tens of thousands for a frozen install. A subscription, servers we rent so it stays fast, and updates as CaboPro improves — included.",
   },
 ] as const;
 
@@ -283,11 +302,13 @@ export const customizations = [
   "payments",
   "channels",
   "layout",
+  "hosting",
 ] as const;
 
 export const nav = [
   { to: "/", label: "Home" },
   { to: "/platform", label: "Software" },
+  { to: "/app", label: "App" },
   { to: "/work", label: "Walkthrough" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
