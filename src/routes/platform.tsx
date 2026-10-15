@@ -66,7 +66,7 @@ function Platform() {
             <figure className="mt-8 hidden md:block">
               <img
                 src="/images/towels.png"
-                alt="CaboPro laundry screen counting towels by room"
+                alt="Atrium laundry screen counting towels by room"
                 className="max-h-52 w-auto rounded-2xl object-contain shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_12%,transparent)]"
               />
               <figcaption className="mt-3 text-[11px] uppercase tracking-[0.16em] text-subtle">

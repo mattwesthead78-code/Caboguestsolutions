@@ -6,14 +6,14 @@ export const en = {
   "nav.about": "About",
   "nav.contact": "Contact",
   "cta.talk": "Talk with us",
-  "cta.software": "See CaboPro",
+  "cta.software": "See Atrium",
   "cta.walkthrough": "Walk a shift",
   "cta.download": "Download the app",
   "cta.sendInquiry": "Send a note",
   "cta.sendAnother": "Send another",
   "chrome.navigate": "Pages",
   "chrome.direct": "WhatsApp",
-  "chrome.native": "CaboPro · Fast on purpose",
+  "chrome.native": "Atrium · Fast on purpose",
   "chrome.location": "Cabo San Lucas, Baja California Sur",
   "chrome.language": "Language",
   "chrome.menuOpen": "Open menu",
@@ -21,19 +21,19 @@ export const en = {
   "company.eyebrow": "Cabo San Lucas · Hospitality software",
   "company.tagline": "Fast software. Cut to the house.",
   "company.lede":
-    "CaboPro runs the desk — hotels, restaurants, villas, yachts. We also build the guest app your people actually open. You subscribe. We rent the servers so it stays quick.",
+    "Atrium runs the desk — hotels, restaurants, villas, yachts. We also build the guest app your people actually open. You subscribe. We rent the servers so it stays quick.",
   "company.mission":
-    "Most hospitality software wants tens of thousands up front and a year of setup. Pretty guest apps don't help the night shift. We do both, properly: CaboPro for the team, a branded app for the guests, each one fitted to that business.",
+    "Most hospitality software wants tens of thousands up front and a year of setup. Pretty guest apps don't help the night shift. We do both, properly: Atrium for the team, a branded app for the guests, each one fitted to that business.",
   "company.engineering":
-    "CaboPro already does the unglamorous work: rooms and tables, check-in, dirty and clean, linen, clock-in, cash and QR, the booking sites, a close of day. We change what shows up, who can touch it, and how it looks — then we host it on servers we rent, so a Saturday rush doesn't crawl.",
+    "Atrium already does the unglamorous work: rooms and tables, check-in, dirty and clean, linen, clock-in, cash and QR, the booking sites, a close of day. We change what shows up, who can touch it, and how it looks — then we host it on servers we rent, so a Saturday rush doesn't crawl.",
   "company.slogan": "Made for the house. Not the other way around.",
   "company.footer":
-    "CaboGuest builds CaboPro and guest apps for hotels, restaurants, villas, and yachts — subscription, hosted for speed, updated as we improve it.",
+    "CaboGuest builds Atrium and guest apps for hotels, restaurants, villas, and yachts — subscription, hosted for speed, updated as we improve it.",
   "offer.ops.kicker": "The desk",
-  "offer.ops.title": "CaboPro",
+  "offer.ops.title": "Atrium",
   "offer.ops.body":
     "The board the staff live on. Rooms or tables, who's in, what's dirty, who is on shift, whether the drawer can close. We cut it to your house. You subscribe. Updates come with it.",
-  "offer.ops.link": "Inside CaboPro",
+  "offer.ops.link": "Inside Atrium",
   "offer.apps.kicker": "In their pocket",
   "offer.apps.title": "Guest apps we build",
   "offer.apps.body":
@@ -41,7 +41,7 @@ export const en = {
   "offer.apps.link": "Get CaboGuest",
   "home.whoKicker": "Who it's for",
   "home.whoTitle": "Hotels through restaurants. Villas. Boats. The same engine.",
-  "home.modulesKicker": "Inside CaboPro",
+  "home.modulesKicker": "Inside Atrium",
   "home.modulesTitle": "The work the house already does.",
   "home.modulesLink": "Every piece",
   "home.how": "How it runs",
@@ -50,15 +50,15 @@ export const en = {
   "home.nextTitle": "Tell Fabi or Matt how the house actually runs.",
   "home.nextBody":
     "WhatsApp is fastest. A short note is fine. We'd rather hear the messy parts than a polished brief.",
-  "page.platform.kicker": "CaboPro",
+  "page.platform.kicker": "Atrium",
   "page.platform.title": "One engine. Cut to the business.",
   "page.platform.lede":
     "This is the software we install, host, and then change. Front desk through close of day. You don't buy a frozen copy. You subscribe — and we keep it fast on servers we rent for you.",
   "page.platform.customKicker": "What we change",
   "page.platform.customTitle": "The same engine. Your house.",
   "page.platform.customBody":
-    "CaboPro isn't a template store. These are the things we routinely reshape — including the odd request, because your operation is odd.",
-  "page.platform.caption": "CaboPro · laundry",
+    "Atrium isn't a template store. These are the things we routinely reshape — including the odd request, because your operation is odd.",
+  "page.platform.caption": "Atrium · laundry",
   "custom.brand": "Your name, colors, and type — so it looks like the desk, not like our demo.",
   "custom.language": "The language the team actually speaks, including mixed EN / ES shifts.",
   "custom.roles": "Who sees what: floor, desk, manager. A PIN, not a shared password on a sticky note.",
@@ -72,20 +72,20 @@ export const en = {
   "page.app.lede":
     "We produce guest apps for the businesses we work with — and we run one ourselves. Download CaboGuest for Android. Then talk to us about one with your name on it.",
   "page.app.body":
-    "House rules, dining, a transfer, a spa hour, a boat day. The guest shouldn't have to hunt through WhatsApp for any of it. We build that layer to match the house — then keep it updated with the same subscription as CaboPro.",
+    "House rules, dining, a transfer, a spa hour, a boat day. The guest shouldn't have to hunt through WhatsApp for any of it. We build that layer to match the house — then keep it updated with the same subscription as Atrium.",
   "page.app.android": "Android · APK",
   "page.app.version": "Version 3",
   "page.app.note":
-    "Sideload on Android. This is our guest app, not the staff software. CaboPro stays on the desk, fitted to you.",
+    "Sideload on Android. This is our guest app, not the staff software. Atrium stays on the desk, fitted to you.",
   "page.app.also": "Want this with your name, menus, and transfers?",
   "page.work.kicker": "A shift",
   "page.work.title": "Tap through the work, not a brochure.",
   "page.work.lede":
-    "Four corners of CaboPro. This is the staff side — the tablet on the desk — not the guest app.",
+    "Four corners of Atrium. This is the staff side — the tablet on the desk — not the guest app.",
   "page.about.kicker": "CaboGuest",
   "page.about.title": "Two people, close to the houses.",
   "page.about.lede":
-    "We're in Cabo San Lucas. We build CaboPro and the guest apps, then we tailor both. Small on purpose: you get Fabi and Matt, not a ticket queue.",
+    "We're in Cabo San Lucas. We build Atrium and the guest apps, then we tailor both. Small on purpose: you get Fabi and Matt, not a ticket queue.",
   "page.about.close":
     "We watch a turnover, we look at the linen pile, we sit through a night audit if that's what it takes. The software has to survive a Saturday with two people on — and it has to feel instant on a cheap tablet.",
   "page.about.founders": "Who you'll talk to",
@@ -100,7 +100,7 @@ export const en = {
   "ind.hotel.short": "Hotels",
   "ind.hotel.kicker": "Rooms, beds, a real desk",
   "ind.hotel.description":
-    "Hostels, inns, boutique hotels. CaboPro is the board: who's in, what's dirty, who got paid. Not a 400-key palace system.",
+    "Hostels, inns, boutique hotels. Atrium is the board: who's in, what's dirty, who got paid. Not a 400-key palace system.",
   "ind.hotel.suite": "Room status, check-in, housekeeping, night audit.",
   "ind.restaurant.name": "Restaurants",
   "ind.restaurant.short": "Dining",
@@ -118,7 +118,7 @@ export const en = {
   "ind.yacht.short": "Yachts",
   "ind.yacht.kicker": "A boat, a clock, a crew",
   "ind.yacht.description":
-    "Charters, transfers, a crew that turns around fast. CaboPro holds the day; the guest app holds the briefing.",
+    "Charters, transfers, a crew that turns around fast. Atrium holds the day; the guest app holds the briefing.",
   "ind.yacht.suite": "Bookings, crew time, guest briefing on their phone.",
   "mod.desk.name": "The desk",
   "mod.desk.summary": "Arrive, stay, leave",
@@ -155,19 +155,19 @@ export const en = {
   "process.1.title": "We sit with how you work",
   "process.1.body":
     "Rooms or tables, who does laundry, how you take money, which site you actually live on. If it's in a notebook, we want the notebook.",
-  "process.2.title": "We cut CaboPro to that house",
+  "process.2.title": "We cut Atrium to that house",
   "process.2.body":
     "Your name, your language, your roles, your payments. We hide what you don't run. We add the awkward piece you can't drop — and a guest app, if you want one.",
   "process.3.title": "You subscribe. We host. We stay.",
   "process.3.body":
-    "No tens of thousands for a frozen install. A subscription, servers we rent so it stays fast, and updates as CaboPro improves — included.",
+    "No tens of thousands for a frozen install. A subscription, servers we rent so it stays fast, and updates as Atrium improves — included.",
   "contact.fabi.role": "Co-founder · The software",
   "contact.fabi.bio":
-    "Builds CaboPro and the guest apps. Rooms, tables, roles, payments, and the thing you still do on paper.",
+    "Builds Atrium and the guest apps. Rooms, tables, roles, payments, and the thing you still do on paper.",
   "contact.matt.role": "Co-founder · The house",
   "contact.matt.bio":
     "Sits with owners until the day-to-day is honest. Makes sure the build matches the desk, not a pitch.",
-  "chip.0": "We need CaboPro fitted to our hotel",
+  "chip.0": "We need Atrium fitted to our hotel",
   "chip.1": "We want a guest app for the house",
   "chip.2": "Staff time is still in a notebook",
   "chip.3": "Walk us through a subscription",
@@ -184,9 +184,9 @@ export const en = {
   "sim.kicker": "On the tablet",
   "sim.title": "A few taps from a real shift.",
   "sim.lede":
-    "This is CaboPro as the staff see it. Pick a corner of the day and run it.",
+    "This is Atrium as the staff see it. Pick a corner of the day and run it.",
   "sim.guest": "Now",
-  "demo.desk.place": "CaboPro · Desk",
+  "demo.desk.place": "Atrium · Desk",
   "demo.desk.tagline": "A Tuesday morning arrival",
   "demo.desk.guest": "Bed 12 · Floor 2",
   "demo.desk.checkin.title": "Check in",
@@ -199,7 +199,7 @@ export const en = {
   "demo.desk.pay.body": "Collect the balance on QR, or note cash in the drawer.",
   "demo.desk.pay.button": "Take QR payment · $42",
   "demo.desk.pay.success": "Payment recorded. Balance clear. Receipt on the booking.",
-  "demo.cleaning.place": "CaboPro · Rooms",
+  "demo.cleaning.place": "Atrium · Rooms",
   "demo.cleaning.tagline": "Three departures, one arrival at 2",
   "demo.cleaning.guest": "Room 8 · Dirty",
   "demo.cleaning.mark.title": "Mark clean",
@@ -213,7 +213,7 @@ export const en = {
   "demo.cleaning.issue.button": "Flag leak in Room 8",
   "demo.cleaning.issue.success":
     "Issue logged for maintenance. Room stays blocked until it's fixed.",
-  "demo.laundry.place": "CaboPro · Linen",
+  "demo.laundry.place": "Atrium · Linen",
   "demo.laundry.tagline": "Count what left the floor",
   "demo.laundry.guest": "Floor 2 · 18 out",
   "demo.laundry.count.title": "Towel count",
@@ -221,7 +221,7 @@ export const en = {
     "Eighteen towels out with guests. Twelve are back in the wash.",
   "demo.laundry.count.button": "Log 12 towels in wash",
   "demo.laundry.count.success": "Wash started. Six still with guests. Ironing is next.",
-  "demo.staff.place": "CaboPro · Time",
+  "demo.staff.place": "Atrium · Time",
   "demo.staff.tagline": "Handover at 7",
   "demo.staff.guest": "Maria · Night",
   "demo.staff.clock.title": "Clock in",
@@ -253,14 +253,14 @@ Object.assign(es, {
   "nav.about": "Nosotros",
   "nav.contact": "Contacto",
   "cta.talk": "Hablemos",
-  "cta.software": "Ver CaboPro",
+  "cta.software": "Ver Atrium",
   "cta.walkthrough": "Hacer un turno",
   "cta.download": "Descargar la app",
   "cta.sendInquiry": "Enviar nota",
   "cta.sendAnother": "Enviar otra",
   "chrome.navigate": "Páginas",
   "chrome.direct": "WhatsApp",
-  "chrome.native": "CaboPro · Rápido a propósito",
+  "chrome.native": "Atrium · Rápido a propósito",
   "chrome.location": "Cabo San Lucas, Baja California Sur",
   "chrome.language": "Idioma",
   "chrome.menuOpen": "Abrir menú",
@@ -268,19 +268,19 @@ Object.assign(es, {
   "company.eyebrow": "Cabo San Lucas · Software para hospitalidad",
   "company.tagline": "Software rápido. Cortado a la casa.",
   "company.lede":
-    "CaboPro corre el escritorio — hoteles, restaurantes, villas, yates. También hacemos la app que el huésped sí abre. Se suscriben. Alquilamos los servidores para que siga rápido.",
+    "Atrium corre el escritorio — hoteles, restaurantes, villas, yates. También hacemos la app que el huésped sí abre. Se suscriben. Alquilamos los servidores para que siga rápido.",
   "company.mission":
-    "La mayoría del software de hospitalidad pide decenas de miles por adelantado y un año de armado. Las apps bonitas no ayudan al turno de noche. Hacemos las dos cosas bien: CaboPro para el equipo, una app con su nombre para el huésped, cada una a medida de ese negocio.",
+    "La mayoría del software de hospitalidad pide decenas de miles por adelantado y un año de armado. Las apps bonitas no ayudan al turno de noche. Hacemos las dos cosas bien: Atrium para el equipo, una app con su nombre para el huésped, cada una a medida de ese negocio.",
   "company.engineering":
-    "CaboPro ya hace el trabajo poco glamoroso: habitaciones y mesas, check-in, sucio y limpio, lencería, fichaje, efectivo y QR, las webs de reserva, el cierre del día. Cambiamos qué se ve, quién puede tocarlo y cómo se ve — y lo hospedamos en servidores que alquilamos, para que un sábado no se arrastre.",
+    "Atrium ya hace el trabajo poco glamoroso: habitaciones y mesas, check-in, sucio y limpio, lencería, fichaje, efectivo y QR, las webs de reserva, el cierre del día. Cambiamos qué se ve, quién puede tocarlo y cómo se ve — y lo hospedamos en servidores que alquilamos, para que un sábado no se arrastre.",
   "company.slogan": "Hecho para la casa. No al revés.",
   "company.footer":
-    "CaboGuest arma CaboPro y apps de huésped para hoteles, restaurantes, villas y yates — suscripción, hospedado para que vaya rápido, actualizado a medida que lo mejoramos.",
+    "CaboGuest arma Atrium y apps de huésped para hoteles, restaurantes, villas y yates — suscripción, hospedado para que vaya rápido, actualizado a medida que lo mejoramos.",
   "offer.ops.kicker": "El escritorio",
-  "offer.ops.title": "CaboPro",
+  "offer.ops.title": "Atrium",
   "offer.ops.body":
     "El tablero donde vive el staff. Habitaciones o mesas, quién está, qué está sucio, quién está de turno, si la caja puede cerrar. Lo cortamos a su casa. Se suscriben. Las actualizaciones vienen con eso.",
-  "offer.ops.link": "Dentro de CaboPro",
+  "offer.ops.link": "Dentro de Atrium",
   "offer.apps.kicker": "En el bolsillo",
   "offer.apps.title": "Apps de huésped que hacemos",
   "offer.apps.body":
@@ -288,7 +288,7 @@ Object.assign(es, {
   "offer.apps.link": "Bajar CaboGuest",
   "home.whoKicker": "Para quién",
   "home.whoTitle": "De hoteles a restaurantes. Villas. Barcos. El mismo motor.",
-  "home.modulesKicker": "Dentro de CaboPro",
+  "home.modulesKicker": "Dentro de Atrium",
   "home.modulesTitle": "El trabajo que la casa ya hace.",
   "home.modulesLink": "Cada pieza",
   "home.how": "Cómo corre",
@@ -297,15 +297,15 @@ Object.assign(es, {
   "home.nextTitle": "Cuéntenle a Fabi o a Matt cómo corre la casa de verdad.",
   "home.nextBody":
     "WhatsApp es lo más rápido. Una nota corta sirve. Preferimos oír las partes desordenadas que un brief pulido.",
-  "page.platform.kicker": "CaboPro",
+  "page.platform.kicker": "Atrium",
   "page.platform.title": "Un motor. Cortado al negocio.",
   "page.platform.lede":
     "Este es el software que instalamos, hospedamos y luego cambiamos. Del escritorio al cierre del día. No compran una copia congelada. Se suscriben — y lo mantenemos rápido en servidores que alquilamos para ustedes.",
   "page.platform.customKicker": "Qué cambiamos",
   "page.platform.customTitle": "El mismo motor. Su casa.",
   "page.platform.customBody":
-    "CaboPro no es una tienda de plantillas. Estas son las cosas que solemos adaptar — incluido el pedido raro, porque su operación es rara.",
-  "page.platform.caption": "CaboPro · lavandería",
+    "Atrium no es una tienda de plantillas. Estas son las cosas que solemos adaptar — incluido el pedido raro, porque su operación es rara.",
+  "page.platform.caption": "Atrium · lavandería",
   "custom.brand": "Su nombre, colores y tipografía — para que se vea como el escritorio, no como nuestro demo.",
   "custom.language": "El idioma que el equipo sí habla, incluyendo turnos mezclados EN / ES.",
   "custom.roles": "Quién ve qué: piso, escritorio, gerente. Un PIN, no una contraseña en un post-it.",
@@ -319,20 +319,20 @@ Object.assign(es, {
   "page.app.lede":
     "Producimos apps de huésped para los negocios con los que trabajamos — y corremos una nosotros. Descarguen CaboGuest para Android. Después hablemos de una con su nombre.",
   "page.app.body":
-    "Reglas de la casa, cena, un transfer, una hora de spa, un día en el barco. El huésped no debería cazar nada de eso en WhatsApp. Armamos esa capa a la casa — y la actualizamos con la misma suscripción que CaboPro.",
+    "Reglas de la casa, cena, un transfer, una hora de spa, un día en el barco. El huésped no debería cazar nada de eso en WhatsApp. Armamos esa capa a la casa — y la actualizamos con la misma suscripción que Atrium.",
   "page.app.android": "Android · APK",
   "page.app.version": "Versión 3",
   "page.app.note":
-    "Se instala en Android. Esta es nuestra app de huésped, no el software del staff. CaboPro se queda en el escritorio, a su medida.",
+    "Se instala en Android. Esta es nuestra app de huésped, no el software del staff. Atrium se queda en el escritorio, a su medida.",
   "page.app.also": "¿Esto, con su nombre, menús y transfers?",
   "page.work.kicker": "Un turno",
   "page.work.title": "Toque el trabajo, no un folleto.",
   "page.work.lede":
-    "Cuatro rincones de CaboPro. Esto es el lado del staff — la tablet en el escritorio — no la app del huésped.",
+    "Cuatro rincones de Atrium. Esto es el lado del staff — la tablet en el escritorio — no la app del huésped.",
   "page.about.kicker": "CaboGuest",
   "page.about.title": "Dos personas, cerca de las casas.",
   "page.about.lede":
-    "Estamos en Cabo San Lucas. Hacemos CaboPro y las apps de huésped, luego adaptamos las dos. Pequeños a propósito: hablan con Fabi y Matt, no con una cola de tickets.",
+    "Estamos en Cabo San Lucas. Hacemos Atrium y las apps de huésped, luego adaptamos las dos. Pequeños a propósito: hablan con Fabi y Matt, no con una cola de tickets.",
   "page.about.close":
     "Vemos un turnover, miramos el montón de lencería, nos quedamos a un cierre de día si hace falta. El software tiene que aguantar un sábado con dos personas — y sentirse instantáneo en una tablet barata.",
   "page.about.founders": "Con quién hablan",
@@ -347,7 +347,7 @@ Object.assign(es, {
   "ind.hotel.short": "Hoteles",
   "ind.hotel.kicker": "Habitaciones, camas, un escritorio de verdad",
   "ind.hotel.description":
-    "Hostales, inns, hoteles boutique. CaboPro es el tablero: quién está, qué está sucio, quién cobró. No un sistema de palacio de 400 llaves.",
+    "Hostales, inns, hoteles boutique. Atrium es el tablero: quién está, qué está sucio, quién cobró. No un sistema de palacio de 400 llaves.",
   "ind.hotel.suite": "Estado de habitación, check-in, limpieza, cierre de día.",
   "ind.restaurant.name": "Restaurantes",
   "ind.restaurant.short": "Comida",
@@ -365,7 +365,7 @@ Object.assign(es, {
   "ind.yacht.short": "Yates",
   "ind.yacht.kicker": "Un barco, un reloj, una tripulación",
   "ind.yacht.description":
-    "Charters, transfers, una tripulación que da la vuelta rápido. CaboPro sostiene el día; la app, el briefing.",
+    "Charters, transfers, una tripulación que da la vuelta rápido. Atrium sostiene el día; la app, el briefing.",
   "ind.yacht.suite": "Reservas, tiempo de tripulación, briefing en el teléfono del huésped.",
   "mod.desk.name": "El escritorio",
   "mod.desk.summary": "Llegar, quedarse, irse",
@@ -402,19 +402,19 @@ Object.assign(es, {
   "process.1.title": "Nos sentamos con cómo trabajan",
   "process.1.body":
     "Habitaciones o mesas, quién lava, cómo cobran, en qué web viven de verdad. Si está en un cuaderno, queremos el cuaderno.",
-  "process.2.title": "Cortamos CaboPro a esa casa",
+  "process.2.title": "Cortamos Atrium a esa casa",
   "process.2.body":
     "Su nombre, su idioma, sus roles, sus pagos. Escondemos lo que no operan. Agregamos esa pieza rara que no pueden soltar — y una app de huésped, si la quieren.",
   "process.3.title": "Se suscriben. Hospedamos. Nos quedamos.",
   "process.3.body":
-    "No decenas de miles por una instalación congelada. Una suscripción, servidores que alquilamos para que siga rápido, y actualizaciones a medida que CaboPro mejora — incluidas.",
+    "No decenas de miles por una instalación congelada. Una suscripción, servidores que alquilamos para que siga rápido, y actualizaciones a medida que Atrium mejora — incluidas.",
   "contact.fabi.role": "Cofundador · El software",
   "contact.fabi.bio":
-    "Arma CaboPro y las apps de huésped. Habitaciones, mesas, roles, pagos, y eso que todavía hacen en papel.",
+    "Arma Atrium y las apps de huésped. Habitaciones, mesas, roles, pagos, y eso que todavía hacen en papel.",
   "contact.matt.role": "Cofundador · La casa",
   "contact.matt.bio":
     "Se sienta con dueños hasta que el día a día es honesto. Hace que el build coincida con el escritorio, no con un pitch.",
-  "chip.0": "Necesitamos CaboPro para nuestro hotel",
+  "chip.0": "Necesitamos Atrium para nuestro hotel",
   "chip.1": "Queremos una app de huésped para la casa",
   "chip.2": "El tiempo del staff sigue en un cuaderno",
   "chip.3": "Cuéntennos cómo sería la suscripción",
@@ -431,9 +431,9 @@ Object.assign(es, {
   "sim.kicker": "En la tablet",
   "sim.title": "Unos toques de un turno real.",
   "sim.lede":
-    "Así ve el staff CaboPro. Elijan un rincón del día y córranlo.",
+    "Así ve el staff Atrium. Elijan un rincón del día y córranlo.",
   "sim.guest": "Ahora",
-  "demo.desk.place": "CaboPro · Escritorio",
+  "demo.desk.place": "Atrium · Escritorio",
   "demo.desk.tagline": "Una llegada un martes por la mañana",
   "demo.desk.guest": "Cama 12 · Piso 2",
   "demo.desk.checkin.title": "Check-in",
@@ -446,7 +446,7 @@ Object.assign(es, {
   "demo.desk.pay.body": "Cobrar el saldo por QR, o anotar efectivo en caja.",
   "demo.desk.pay.button": "Cobrar QR · $42",
   "demo.desk.pay.success": "Pago registrado. Saldo en cero. Recibo en la reserva.",
-  "demo.cleaning.place": "CaboPro · Habitaciones",
+  "demo.cleaning.place": "Atrium · Habitaciones",
   "demo.cleaning.tagline": "Tres salidas, una llegada a las 2",
   "demo.cleaning.guest": "Habitación 8 · Sucia",
   "demo.cleaning.mark.title": "Marcar limpia",
@@ -460,7 +460,7 @@ Object.assign(es, {
   "demo.cleaning.issue.button": "Marcar gotera en hab. 8",
   "demo.cleaning.issue.success":
     "Problema anotado para mantenimiento. La habitación sigue bloqueada hasta que se arregle.",
-  "demo.laundry.place": "CaboPro · Lencería",
+  "demo.laundry.place": "Atrium · Lencería",
   "demo.laundry.tagline": "Contar lo que salió del piso",
   "demo.laundry.guest": "Piso 2 · 18 afuera",
   "demo.laundry.count.title": "Conteo de toallas",
@@ -468,7 +468,7 @@ Object.assign(es, {
     "Dieciocho toallas afuera con huéspedes. Doce de vuelta en el lavado.",
   "demo.laundry.count.button": "Registrar 12 toallas en lavado",
   "demo.laundry.count.success": "Lavado empezado. Seis todavía con huéspedes. Sigue el planchado.",
-  "demo.staff.place": "CaboPro · Tiempo",
+  "demo.staff.place": "Atrium · Tiempo",
   "demo.staff.tagline": "Entrega a las 7",
   "demo.staff.guest": "María · Noche",
   "demo.staff.clock.title": "Fichar",
@@ -486,14 +486,14 @@ Object.assign(es, {
 
 Object.assign(pt, {
   "nav.app": "App",
-  "cta.software": "Ver CaboPro",
+  "cta.software": "Ver Atrium",
   "cta.download": "Baixar o app",
-  "chrome.native": "CaboPro · Rápido de propósito",
+  "chrome.native": "Atrium · Rápido de propósito",
   "company.tagline": "Software rápido. Cortado à casa.",
   "company.lede":
-    "O CaboPro corre o balcão — hotéis, restaurantes, villas, iates. Também fazemos o app que o hóspede realmente abre. Vocês assinam. Alugamos os servidores para continuar rápido.",
+    "O Atrium corre o balcão — hotéis, restaurantes, villas, iates. Também fazemos o app que o hóspede realmente abre. Vocês assinam. Alugamos os servidores para continuar rápido.",
   "company.slogan": "Feito para a casa. Não o contrário.",
-  "offer.ops.title": "CaboPro",
+  "offer.ops.title": "Atrium",
   "offer.apps.title": "Apps de hóspede que fazemos",
   "home.whoTitle": "De hotéis a restaurantes. Villas. Barcos. O mesmo motor.",
   "home.howTitle": "Assinam. Hospedamos. Continua vosso.",
@@ -506,21 +506,21 @@ Object.assign(pt, {
   "ind.restaurant.name": "Restaurantes",
   "ind.villa.name": "Villas e casas",
   "ind.yacht.name": "Iates e dias",
-  "process.2.title": "Cortamos o CaboPro a essa casa",
+  "process.2.title": "Cortamos o Atrium a essa casa",
   "process.3.title": "Assinam. Hospedamos. Ficamos.",
   "sim.title": "Alguns toques de um turno real.",
 } satisfies Partial<Record<MessageKey, string>>);
 
 Object.assign(fr, {
   "nav.app": "App",
-  "cta.software": "Voir CaboPro",
+  "cta.software": "Voir Atrium",
   "cta.download": "Télécharger l’app",
-  "chrome.native": "CaboPro · Rapide exprès",
+  "chrome.native": "Atrium · Rapide exprès",
   "company.tagline": "Un logiciel rapide. Taillé à la maison.",
   "company.lede":
-    "CaboPro tient le desk — hôtels, restaurants, villas, yachts. On construit aussi l’app que les gens ouvrent vraiment. Vous vous abonnez. On loue les serveurs pour que ça reste vif.",
+    "Atrium tient le desk — hôtels, restaurants, villas, yachts. On construit aussi l’app que les gens ouvrent vraiment. Vous vous abonnez. On loue les serveurs pour que ça reste vif.",
   "company.slogan": "Fait pour la maison. Pas l’inverse.",
-  "offer.ops.title": "CaboPro",
+  "offer.ops.title": "Atrium",
   "home.whoTitle": "Des hôtels aux restaurants. Villas. Bateaux. Le même moteur.",
   "home.howTitle": "Vous vous abonnez. On héberge. Ça reste à vous.",
   "page.platform.title": "Un moteur. Taillé au métier.",
@@ -532,21 +532,21 @@ Object.assign(fr, {
   "ind.restaurant.name": "Restaurants",
   "ind.villa.name": "Villas et maisons",
   "ind.yacht.name": "Yachts et journées",
-  "process.2.title": "On taille CaboPro à cette maison",
+  "process.2.title": "On taille Atrium à cette maison",
   "process.3.title": "Vous vous abonnez. On héberge. On reste.",
   "sim.title": "Quelques tapotements d’un vrai service.",
 } satisfies Partial<Record<MessageKey, string>>);
 
 Object.assign(de, {
   "nav.app": "App",
-  "cta.software": "CaboPro ansehen",
+  "cta.software": "Atrium ansehen",
   "cta.download": "App herunterladen",
-  "chrome.native": "CaboPro · Absichtlich schnell",
+  "chrome.native": "Atrium · Absichtlich schnell",
   "company.tagline": "Schnelle Software. Aufs Haus geschnitten.",
   "company.lede":
-    "CaboPro führt den Desk — Hotels, Restaurants, Villen, Yachten. Wir bauen auch die Gäste-App, die Leute wirklich öffnen. Ihr abonniert. Wir mieten die Server, damit es schnell bleibt.",
+    "Atrium führt den Desk — Hotels, Restaurants, Villen, Yachten. Wir bauen auch die Gäste-App, die Leute wirklich öffnen. Ihr abonniert. Wir mieten die Server, damit es schnell bleibt.",
   "company.slogan": "Fürs Haus gebaut. Nicht umgekehrt.",
-  "offer.ops.title": "CaboPro",
+  "offer.ops.title": "Atrium",
   "home.whoTitle": "Hotels bis Restaurants. Villen. Boote. Dieselbe Engine.",
   "home.howTitle": "Abonnieren. Wir hosten. Es bleibt eures.",
   "page.platform.title": "Eine Engine. Aufs Geschäft geschnitten.",
@@ -558,21 +558,21 @@ Object.assign(de, {
   "ind.restaurant.name": "Restaurants",
   "ind.villa.name": "Villen & Häuser",
   "ind.yacht.name": "Yachten & Tage",
-  "process.2.title": "Wir schneiden CaboPro aufs Haus",
+  "process.2.title": "Wir schneiden Atrium aufs Haus",
   "process.3.title": "Ihr abonniert. Wir hosten. Wir bleiben.",
   "sim.title": "Ein paar Tipps aus einer echten Schicht.",
 } satisfies Partial<Record<MessageKey, string>>);
 
 Object.assign(zh, {
   "nav.app": "应用",
-  "cta.software": "了解 CaboPro",
+  "cta.software": "了解 Atrium",
   "cta.download": "下载应用",
-  "chrome.native": "CaboPro · 故意要快",
+  "chrome.native": "Atrium · 故意要快",
   "company.tagline": "快的软件。按这家店来裁。",
   "company.lede":
-    "CaboPro 管前台——酒店、餐厅、别墅、游艇。我们也做客人真会打开的应用。你们订阅。我们租服务器，好一直快。",
+    "Atrium 管前台——酒店、餐厅、别墅、游艇。我们也做客人真会打开的应用。你们订阅。我们租服务器，好一直快。",
   "company.slogan": "为这家店而做，而不是反过来。",
-  "offer.ops.title": "CaboPro",
+  "offer.ops.title": "Atrium",
   "home.whoTitle": "从酒店到餐厅。别墅。船。同一套引擎。",
   "home.howTitle": "订阅。我们托管。它还是你们的。",
   "page.platform.title": "一套引擎。按生意裁。",
@@ -584,7 +584,7 @@ Object.assign(zh, {
   "ind.restaurant.name": "餐厅",
   "ind.villa.name": "别墅与住宅",
   "ind.yacht.name": "游艇与日游",
-  "process.2.title": "把 CaboPro 裁到这家店",
+  "process.2.title": "把 Atrium 裁到这家店",
   "process.3.title": "你们订阅。我们托管。我们留下。",
   "sim.title": "真实班次里的几下点击。",
 } satisfies Partial<Record<MessageKey, string>>);
