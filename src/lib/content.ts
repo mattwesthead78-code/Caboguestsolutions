@@ -308,6 +308,7 @@ export const customizations = [
 export const nav = [
   { to: "/", label: "Home" },
   { to: "/platform", label: "Software" },
+  { to: "/pricing", label: "Prices" },
   { to: "/app", label: "App" },
   { to: "/work", label: "Walkthrough" },
   { to: "/about", label: "About" },

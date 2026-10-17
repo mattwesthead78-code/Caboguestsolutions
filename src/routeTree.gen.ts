@@ -14,6 +14,7 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as AppRouteImport } from './routes/app'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as PlatformRouteImport } from './routes/platform'
+import { Route as PricingRouteImport } from './routes/pricing'
 import { Route as WorkRouteImport } from './routes/work'
 
 const IndexRoute = IndexRouteImport.update({
@@ -41,6 +42,11 @@ const PlatformRoute = PlatformRouteImport.update({
   path: '/platform',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PricingRoute = PricingRouteImport.update({
+  id: '/pricing',
+  path: '/pricing',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const WorkRoute = WorkRouteImport.update({
   id: '/work',
   path: '/work',
@@ -53,6 +59,7 @@ export interface FileRoutesByFullPath {
   '/app': typeof AppRoute
   '/contact': typeof ContactRoute
   '/platform': typeof PlatformRoute
+  '/pricing': typeof PricingRoute
   '/work': typeof WorkRoute
 }
 export interface FileRoutesByTo {
@@ -61,6 +68,7 @@ export interface FileRoutesByTo {
   '/app': typeof AppRoute
   '/contact': typeof ContactRoute
   '/platform': typeof PlatformRoute
+  '/pricing': typeof PricingRoute
   '/work': typeof WorkRoute
 }
 export interface FileRoutesById {
@@ -70,14 +78,24 @@ export interface FileRoutesById {
   '/app': typeof AppRoute
   '/contact': typeof ContactRoute
   '/platform': typeof PlatformRoute
+  '/pricing': typeof PricingRoute
   '/work': typeof WorkRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/app' | '/contact' | '/platform' | '/work'
+  fullPaths:
+    '/' | '/about' | '/app' | '/contact' | '/platform' | '/pricing' | '/work'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/app' | '/contact' | '/platform' | '/work'
-  id: '__root__' | '/' | '/about' | '/app' | '/contact' | '/platform' | '/work'
+  to: '/' | '/about' | '/app' | '/contact' | '/platform' | '/pricing' | '/work'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/app'
+    | '/contact'
+    | '/platform'
+    | '/pricing'
+    | '/work'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -86,6 +104,7 @@ export interface RootRouteChildren {
   AppRoute: typeof AppRoute
   ContactRoute: typeof ContactRoute
   PlatformRoute: typeof PlatformRoute
+  PricingRoute: typeof PricingRoute
   WorkRoute: typeof WorkRoute
 }
 
@@ -126,6 +145,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PlatformRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pricing': {
+      id: '/pricing'
+      path: '/pricing'
+      fullPath: '/pricing'
+      preLoaderRoute: typeof PricingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/work': {
       id: '/work'
       path: '/work'
@@ -142,6 +168,7 @@ const rootRouteChildren: RootRouteChildren = {
   AppRoute: AppRoute,
   ContactRoute: ContactRoute,
   PlatformRoute: PlatformRoute,
+  PricingRoute: PricingRoute,
   WorkRoute: WorkRoute,
 }
 export const routeTree = rootRouteImport

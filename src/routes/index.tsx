@@ -36,6 +36,12 @@ function Home() {
             >
               {t("cta.talk")}
             </Link>
+            <Link
+              to="/pricing"
+              className="inline-flex min-h-11 items-center rounded-full px-5 text-sm font-medium text-fg shadow-[0_0_0_1px_color-mix(in_oklab,var(--color-fg)_28%,transparent)] transition-transform duration-150 active:scale-[0.96]"
+            >
+              {t("cta.prices")}
+            </Link>
             <a
               href={androidApk.href}
               download={androidApk.fileName}
