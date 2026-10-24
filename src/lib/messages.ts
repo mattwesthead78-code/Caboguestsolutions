@@ -8,14 +8,14 @@ export const en = {
   "nav.contact": "Contact",
   "cta.talk": "Talk with us",
   "cta.prices": "See prices",
-  "cta.software": "See Atrium",
+  "cta.software": "See RackFolio",
   "cta.walkthrough": "Walk a shift",
   "cta.download": "Download the app",
   "cta.sendInquiry": "Send a note",
   "cta.sendAnother": "Send another",
   "chrome.navigate": "Pages",
   "chrome.direct": "WhatsApp",
-  "chrome.native": "Atrium · Fast on purpose",
+  "chrome.native": "RackFolio · Fast on purpose",
   "chrome.location": "Cabo San Lucas, Baja California Sur",
   "chrome.language": "Language",
   "chrome.menuOpen": "Open menu",
@@ -23,19 +23,19 @@ export const en = {
   "company.eyebrow": "Cabo San Lucas · Hospitality software",
   "company.tagline": "Fast software. Cut to the house.",
   "company.lede":
-    "Atrium runs the desk — hotels, restaurants, villas, yachts. We also build the guest app your people actually open. You subscribe. We rent the servers so it stays quick.",
+    "RackFolio runs the desk — hotels, restaurants, villas, yachts. We also build the guest app your people actually open. You subscribe. We rent the servers so it stays quick.",
   "company.mission":
-    "Most hospitality software wants tens of thousands up front and a year of setup. Pretty guest apps don't help the night shift. We do both, properly: Atrium for the team, a branded app for the guests, each one fitted to that business.",
+    "Most hospitality software wants tens of thousands up front and a year of setup. Pretty guest apps don't help the night shift. We do both, properly: RackFolio for the team, a branded app for the guests, each one fitted to that business.",
   "company.engineering":
-    "Atrium already does the unglamorous work: rooms and tables, check-in, dirty and clean, linen, clock-in, cash and QR, the booking sites, a close of day. We change what shows up, who can touch it, and how it looks — then we host it on servers we rent, so a Saturday rush doesn't crawl.",
+    "RackFolio already does the unglamorous work: rooms and tables, check-in, dirty and clean, linen, clock-in, cash and QR, the booking sites, a close of day. We change what shows up, who can touch it, and how it looks — then we host it on servers we rent, so a Saturday rush doesn't crawl.",
   "company.slogan": "Made for the house. Not the other way around.",
   "company.footer":
-    "CaboGuest builds Atrium and guest apps for hotels, restaurants, villas, and yachts — subscription, hosted for speed, updated as we improve it.",
+    "CaboGuest builds RackFolio and guest apps for hotels, restaurants, villas, and yachts — subscription, hosted for speed, updated as we improve it.",
   "offer.ops.kicker": "The desk",
-  "offer.ops.title": "Atrium",
+  "offer.ops.title": "RackFolio",
   "offer.ops.body":
     "The board the staff live on. Rooms or tables, who's in, what's dirty, who is on shift, whether the drawer can close. We cut it to your house. You subscribe. Updates come with it.",
-  "offer.ops.link": "Inside Atrium",
+  "offer.ops.link": "Inside RackFolio",
   "offer.apps.kicker": "In their pocket",
   "offer.apps.title": "Guest apps we build",
   "offer.apps.body":
@@ -43,7 +43,7 @@ export const en = {
   "offer.apps.link": "Get CaboGuest",
   "home.whoKicker": "Who it's for",
   "home.whoTitle": "Hotels through restaurants. Villas. Boats. The same engine.",
-  "home.modulesKicker": "Inside Atrium",
+  "home.modulesKicker": "Inside RackFolio",
   "home.modulesTitle": "The work the house already does.",
   "home.modulesLink": "Every piece",
   "home.how": "How it runs",
@@ -52,15 +52,15 @@ export const en = {
   "home.nextTitle": "Tell Fabi or Matt how the house actually runs.",
   "home.nextBody":
     "WhatsApp is fastest. A short note is fine. We'd rather hear the messy parts than a polished brief.",
-  "page.platform.kicker": "Atrium",
+  "page.platform.kicker": "RackFolio",
   "page.platform.title": "One engine. Cut to the business.",
   "page.platform.lede":
     "This is the software we install, host, and then change. Front desk through close of day. You don't buy a frozen copy. You subscribe — and we keep it fast on servers we rent for you.",
   "page.platform.customKicker": "What we change",
   "page.platform.customTitle": "The same engine. Your house.",
   "page.platform.customBody":
-    "Atrium isn't a template store. These are the things we routinely reshape — including the odd request, because your operation is odd.",
-  "page.platform.caption": "Atrium · laundry",
+    "RackFolio isn't a template store. These are the things we routinely reshape — including the odd request, because your operation is odd.",
+  "page.platform.caption": "RackFolio · laundry",
   "custom.brand": "Your name, colors, and type — so it looks like the desk, not like our demo.",
   "custom.language": "The language the team actually speaks, including mixed EN / ES shifts.",
   "custom.roles": "Who sees what: floor, desk, manager. A PIN, not a shared password on a sticky note.",
@@ -74,20 +74,20 @@ export const en = {
   "page.app.lede":
     "We produce guest apps for the businesses we work with — and we run one ourselves. Download CaboGuest for Android. Then talk to us about one with your name on it.",
   "page.app.body":
-    "House rules, dining, a transfer, a spa hour, a boat day. The guest shouldn't have to hunt through WhatsApp for any of it. We build that layer to match the house — then keep it updated with the same subscription as Atrium.",
+    "House rules, dining, a transfer, a spa hour, a boat day. The guest shouldn't have to hunt through WhatsApp for any of it. We build that layer to match the house — then keep it updated with the same subscription as RackFolio.",
   "page.app.android": "Android · APK",
   "page.app.version": "Version 3",
   "page.app.note":
-    "Sideload on Android. This is our guest app, not the staff software. Atrium stays on the desk, fitted to you.",
+    "Sideload on Android. This is our guest app, not the staff software. RackFolio stays on the desk, fitted to you.",
   "page.app.also": "Want this with your name, menus, and transfers?",
   "page.work.kicker": "A shift",
   "page.work.title": "Tap through the work, not a brochure.",
   "page.work.lede":
-    "Four corners of Atrium. This is the staff side — the tablet on the desk — not the guest app.",
+    "Four corners of RackFolio. This is the staff side — the tablet on the desk — not the guest app.",
   "page.about.kicker": "CaboGuest",
   "page.about.title": "Two people, close to the houses.",
   "page.about.lede":
-    "We're in Cabo San Lucas. We build Atrium and the guest apps, then we tailor both. Small on purpose: you get Fabi and Matt, not a ticket queue.",
+    "We're in Cabo San Lucas. We build RackFolio and the guest apps, then we tailor both. Small on purpose: you get Fabi and Matt, not a ticket queue.",
   "page.about.close":
     "We watch a turnover, we look at the linen pile, we sit through a night audit if that's what it takes. The software has to survive a Saturday with two people on — and it has to feel instant on a cheap tablet.",
   "page.about.founders": "Who you'll talk to",
@@ -102,7 +102,7 @@ export const en = {
   "ind.hotel.short": "Hotels",
   "ind.hotel.kicker": "Rooms, beds, a real desk",
   "ind.hotel.description":
-    "Hostels, inns, boutique hotels. Atrium is the board: who's in, what's dirty, who got paid. Not a 400-key palace system.",
+    "Hostels, inns, boutique hotels. RackFolio is the board: who's in, what's dirty, who got paid. Not a 400-key palace system.",
   "ind.hotel.suite": "Room status, check-in, housekeeping, night audit.",
   "ind.restaurant.name": "Restaurants",
   "ind.restaurant.short": "Dining",
@@ -120,7 +120,7 @@ export const en = {
   "ind.yacht.short": "Yachts",
   "ind.yacht.kicker": "A boat, a clock, a crew",
   "ind.yacht.description":
-    "Charters, transfers, a crew that turns around fast. Atrium holds the day; the guest app holds the briefing.",
+    "Charters, transfers, a crew that turns around fast. RackFolio holds the day; the guest app holds the briefing.",
   "ind.yacht.suite": "Bookings, crew time, guest briefing on their phone.",
   "mod.desk.name": "The desk",
   "mod.desk.summary": "Arrive, stay, leave",
@@ -157,19 +157,19 @@ export const en = {
   "process.1.title": "We sit with how you work",
   "process.1.body":
     "Rooms or tables, who does laundry, how you take money, which site you actually live on. If it's in a notebook, we want the notebook.",
-  "process.2.title": "We cut Atrium to that house",
+  "process.2.title": "We cut RackFolio to that house",
   "process.2.body":
     "Your name, your language, your roles, your payments. We hide what you don't run. We add the awkward piece you can't drop — and a guest app, if you want one.",
   "process.3.title": "You subscribe. We host. We stay.",
   "process.3.body":
-    "No tens of thousands for a frozen install. A subscription, servers we rent so it stays fast, and updates as Atrium improves — included.",
+    "No tens of thousands for a frozen install. A subscription, servers we rent so it stays fast, and updates as RackFolio improves — included.",
   "contact.fabi.role": "Co-founder · The software",
   "contact.fabi.bio":
-    "Builds Atrium and the guest apps. Rooms, tables, roles, payments, and the thing you still do on paper.",
+    "Builds RackFolio and the guest apps. Rooms, tables, roles, payments, and the thing you still do on paper.",
   "contact.matt.role": "Co-founder · The house",
   "contact.matt.bio":
     "Sits with owners until the day-to-day is honest. Makes sure the build matches the desk, not a pitch.",
-  "chip.0": "We need Atrium fitted to our hotel",
+  "chip.0": "We need RackFolio fitted to our hotel",
   "chip.1": "We want a guest app for the house",
   "chip.2": "Staff time is still in a notebook",
   "chip.3": "Walk us through a subscription",
@@ -186,9 +186,9 @@ export const en = {
   "sim.kicker": "On the tablet",
   "sim.title": "A few taps from a real shift.",
   "sim.lede":
-    "This is Atrium as the staff see it. Pick a corner of the day and run it.",
+    "This is RackFolio as the staff see it. Pick a corner of the day and run it.",
   "sim.guest": "Now",
-  "demo.desk.place": "Atrium · Desk",
+  "demo.desk.place": "RackFolio · Desk",
   "demo.desk.tagline": "A Tuesday morning arrival",
   "demo.desk.guest": "Bed 12 · Floor 2",
   "demo.desk.checkin.title": "Check in",
@@ -201,7 +201,7 @@ export const en = {
   "demo.desk.pay.body": "Collect the balance on QR, or note cash in the drawer.",
   "demo.desk.pay.button": "Take QR payment · $42",
   "demo.desk.pay.success": "Payment recorded. Balance clear. Receipt on the booking.",
-  "demo.cleaning.place": "Atrium · Rooms",
+  "demo.cleaning.place": "RackFolio · Rooms",
   "demo.cleaning.tagline": "Three departures, one arrival at 2",
   "demo.cleaning.guest": "Room 8 · Dirty",
   "demo.cleaning.mark.title": "Mark clean",
@@ -215,7 +215,7 @@ export const en = {
   "demo.cleaning.issue.button": "Flag leak in Room 8",
   "demo.cleaning.issue.success":
     "Issue logged for maintenance. Room stays blocked until it's fixed.",
-  "demo.laundry.place": "Atrium · Linen",
+  "demo.laundry.place": "RackFolio · Linen",
   "demo.laundry.tagline": "Count what left the floor",
   "demo.laundry.guest": "Floor 2 · 18 out",
   "demo.laundry.count.title": "Towel count",
@@ -223,7 +223,7 @@ export const en = {
     "Eighteen towels out with guests. Twelve are back in the wash.",
   "demo.laundry.count.button": "Log 12 towels in wash",
   "demo.laundry.count.success": "Wash started. Six still with guests. Ironing is next.",
-  "demo.staff.place": "Atrium · Time",
+  "demo.staff.place": "RackFolio · Time",
   "demo.staff.tagline": "Handover at 7",
   "demo.staff.guest": "Maria · Night",
   "demo.staff.clock.title": "Clock in",
@@ -240,7 +240,7 @@ export const en = {
   "page.pricing.kicker": "Subscription",
   "page.pricing.title": "A price for the house. Not a project fee.",
   "page.pricing.lede":
-    "One amount each month. Atrium on the desk, apps on the staff phones, and a guest app with your name on it. We fit the software to the company before you go live.",
+    "One amount each month. RackFolio on the desk, apps on the staff phones, and a guest app with your name on it. We fit the software to the company before you go live.",
   "page.pricing.month": "a month",
   "page.pricing.recommended": "Where most houses start",
   "page.pricing.breakKicker": "What you are paying for",
@@ -264,7 +264,7 @@ export const en = {
   "price.item.host": "Servers we rent, and the updates",
   "price.break.fit.title": "Cut to that company",
   "price.break.fit.body":
-    "This is not a blank system with our name on the door. Atrium carries your logo, your rooms, your roles, and the way you already take money. We set that before the first shift.",
+    "This is not a blank system with our name on the door. RackFolio carries your logo, your rooms, your roles, and the way you already take money. We set that before the first shift.",
   "price.break.phones.title": "The phones they already carry",
   "price.break.phones.body":
     "Cleaners, maintenance, and the manager each get the app. A cleaner marks the room ready. Maintenance sees the broken tap. The manager sees the day. Those phones are in the price. You do not buy a seat for each person.",
@@ -273,7 +273,7 @@ export const en = {
     "Guests check in, ask for towels, read the house, and book a tour without calling the desk. The app wears your logo and your information, not ours.",
   "price.break.host.title": "Hosting, so Saturday stays quick",
   "price.break.host.body":
-    "We rent the servers. The desk does not crawl when the house is full, and the improvements to Atrium come with the same subscription.",
+    "We rent the servers. The desk does not crawl when the house is full, and the improvements to RackFolio come with the same subscription.",
 } as const;
 
 export type MessageKey = keyof typeof en;
@@ -294,14 +294,14 @@ Object.assign(es, {
   "nav.pricing": "Precios",
   "cta.talk": "Hablemos",
   "cta.prices": "Ver precios",
-  "cta.software": "Ver Atrium",
+  "cta.software": "Ver RackFolio",
   "cta.walkthrough": "Hacer un turno",
   "cta.download": "Descargar la app",
   "cta.sendInquiry": "Enviar nota",
   "cta.sendAnother": "Enviar otra",
   "chrome.navigate": "Páginas",
   "chrome.direct": "WhatsApp",
-  "chrome.native": "Atrium · Rápido a propósito",
+  "chrome.native": "RackFolio · Rápido a propósito",
   "chrome.location": "Cabo San Lucas, Baja California Sur",
   "chrome.language": "Idioma",
   "chrome.menuOpen": "Abrir menú",
@@ -309,19 +309,19 @@ Object.assign(es, {
   "company.eyebrow": "Cabo San Lucas · Software para hospitalidad",
   "company.tagline": "Software rápido. Cortado a la casa.",
   "company.lede":
-    "Atrium corre el escritorio — hoteles, restaurantes, villas, yates. También hacemos la app que el huésped sí abre. Se suscriben. Alquilamos los servidores para que siga rápido.",
+    "RackFolio corre el escritorio — hoteles, restaurantes, villas, yates. También hacemos la app que el huésped sí abre. Se suscriben. Alquilamos los servidores para que siga rápido.",
   "company.mission":
-    "La mayoría del software de hospitalidad pide decenas de miles por adelantado y un año de armado. Las apps bonitas no ayudan al turno de noche. Hacemos las dos cosas bien: Atrium para el equipo, una app con su nombre para el huésped, cada una a medida de ese negocio.",
+    "La mayoría del software de hospitalidad pide decenas de miles por adelantado y un año de armado. Las apps bonitas no ayudan al turno de noche. Hacemos las dos cosas bien: RackFolio para el equipo, una app con su nombre para el huésped, cada una a medida de ese negocio.",
   "company.engineering":
-    "Atrium ya hace el trabajo poco glamoroso: habitaciones y mesas, check-in, sucio y limpio, lencería, fichaje, efectivo y QR, las webs de reserva, el cierre del día. Cambiamos qué se ve, quién puede tocarlo y cómo se ve — y lo hospedamos en servidores que alquilamos, para que un sábado no se arrastre.",
+    "RackFolio ya hace el trabajo poco glamoroso: habitaciones y mesas, check-in, sucio y limpio, lencería, fichaje, efectivo y QR, las webs de reserva, el cierre del día. Cambiamos qué se ve, quién puede tocarlo y cómo se ve — y lo hospedamos en servidores que alquilamos, para que un sábado no se arrastre.",
   "company.slogan": "Hecho para la casa. No al revés.",
   "company.footer":
-    "CaboGuest arma Atrium y apps de huésped para hoteles, restaurantes, villas y yates — suscripción, hospedado para que vaya rápido, actualizado a medida que lo mejoramos.",
+    "CaboGuest arma RackFolio y apps de huésped para hoteles, restaurantes, villas y yates — suscripción, hospedado para que vaya rápido, actualizado a medida que lo mejoramos.",
   "offer.ops.kicker": "El escritorio",
-  "offer.ops.title": "Atrium",
+  "offer.ops.title": "RackFolio",
   "offer.ops.body":
     "El tablero donde vive el staff. Habitaciones o mesas, quién está, qué está sucio, quién está de turno, si la caja puede cerrar. Lo cortamos a su casa. Se suscriben. Las actualizaciones vienen con eso.",
-  "offer.ops.link": "Dentro de Atrium",
+  "offer.ops.link": "Dentro de RackFolio",
   "offer.apps.kicker": "En el bolsillo",
   "offer.apps.title": "Apps de huésped que hacemos",
   "offer.apps.body":
@@ -329,7 +329,7 @@ Object.assign(es, {
   "offer.apps.link": "Bajar CaboGuest",
   "home.whoKicker": "Para quién",
   "home.whoTitle": "De hoteles a restaurantes. Villas. Barcos. El mismo motor.",
-  "home.modulesKicker": "Dentro de Atrium",
+  "home.modulesKicker": "Dentro de RackFolio",
   "home.modulesTitle": "El trabajo que la casa ya hace.",
   "home.modulesLink": "Cada pieza",
   "home.how": "Cómo corre",
@@ -338,15 +338,15 @@ Object.assign(es, {
   "home.nextTitle": "Cuéntenle a Fabi o a Matt cómo corre la casa de verdad.",
   "home.nextBody":
     "WhatsApp es lo más rápido. Una nota corta sirve. Preferimos oír las partes desordenadas que un brief pulido.",
-  "page.platform.kicker": "Atrium",
+  "page.platform.kicker": "RackFolio",
   "page.platform.title": "Un motor. Cortado al negocio.",
   "page.platform.lede":
     "Este es el software que instalamos, hospedamos y luego cambiamos. Del escritorio al cierre del día. No compran una copia congelada. Se suscriben — y lo mantenemos rápido en servidores que alquilamos para ustedes.",
   "page.platform.customKicker": "Qué cambiamos",
   "page.platform.customTitle": "El mismo motor. Su casa.",
   "page.platform.customBody":
-    "Atrium no es una tienda de plantillas. Estas son las cosas que solemos adaptar — incluido el pedido raro, porque su operación es rara.",
-  "page.platform.caption": "Atrium · lavandería",
+    "RackFolio no es una tienda de plantillas. Estas son las cosas que solemos adaptar — incluido el pedido raro, porque su operación es rara.",
+  "page.platform.caption": "RackFolio · lavandería",
   "custom.brand": "Su nombre, colores y tipografía — para que se vea como el escritorio, no como nuestro demo.",
   "custom.language": "El idioma que el equipo sí habla, incluyendo turnos mezclados EN / ES.",
   "custom.roles": "Quién ve qué: piso, escritorio, gerente. Un PIN, no una contraseña en un post-it.",
@@ -360,20 +360,20 @@ Object.assign(es, {
   "page.app.lede":
     "Producimos apps de huésped para los negocios con los que trabajamos — y corremos una nosotros. Descarguen CaboGuest para Android. Después hablemos de una con su nombre.",
   "page.app.body":
-    "Reglas de la casa, cena, un transfer, una hora de spa, un día en el barco. El huésped no debería cazar nada de eso en WhatsApp. Armamos esa capa a la casa — y la actualizamos con la misma suscripción que Atrium.",
+    "Reglas de la casa, cena, un transfer, una hora de spa, un día en el barco. El huésped no debería cazar nada de eso en WhatsApp. Armamos esa capa a la casa — y la actualizamos con la misma suscripción que RackFolio.",
   "page.app.android": "Android · APK",
   "page.app.version": "Versión 3",
   "page.app.note":
-    "Se instala en Android. Esta es nuestra app de huésped, no el software del staff. Atrium se queda en el escritorio, a su medida.",
+    "Se instala en Android. Esta es nuestra app de huésped, no el software del staff. RackFolio se queda en el escritorio, a su medida.",
   "page.app.also": "¿Esto, con su nombre, menús y transfers?",
   "page.work.kicker": "Un turno",
   "page.work.title": "Toque el trabajo, no un folleto.",
   "page.work.lede":
-    "Cuatro rincones de Atrium. Esto es el lado del staff — la tablet en el escritorio — no la app del huésped.",
+    "Cuatro rincones de RackFolio. Esto es el lado del staff — la tablet en el escritorio — no la app del huésped.",
   "page.about.kicker": "CaboGuest",
   "page.about.title": "Dos personas, cerca de las casas.",
   "page.about.lede":
-    "Estamos en Cabo San Lucas. Hacemos Atrium y las apps de huésped, luego adaptamos las dos. Pequeños a propósito: hablan con Fabi y Matt, no con una cola de tickets.",
+    "Estamos en Cabo San Lucas. Hacemos RackFolio y las apps de huésped, luego adaptamos las dos. Pequeños a propósito: hablan con Fabi y Matt, no con una cola de tickets.",
   "page.about.close":
     "Vemos un turnover, miramos el montón de lencería, nos quedamos a un cierre de día si hace falta. El software tiene que aguantar un sábado con dos personas — y sentirse instantáneo en una tablet barata.",
   "page.about.founders": "Con quién hablan",
@@ -388,7 +388,7 @@ Object.assign(es, {
   "ind.hotel.short": "Hoteles",
   "ind.hotel.kicker": "Habitaciones, camas, un escritorio de verdad",
   "ind.hotel.description":
-    "Hostales, inns, hoteles boutique. Atrium es el tablero: quién está, qué está sucio, quién cobró. No un sistema de palacio de 400 llaves.",
+    "Hostales, inns, hoteles boutique. RackFolio es el tablero: quién está, qué está sucio, quién cobró. No un sistema de palacio de 400 llaves.",
   "ind.hotel.suite": "Estado de habitación, check-in, limpieza, cierre de día.",
   "ind.restaurant.name": "Restaurantes",
   "ind.restaurant.short": "Comida",
@@ -406,7 +406,7 @@ Object.assign(es, {
   "ind.yacht.short": "Yates",
   "ind.yacht.kicker": "Un barco, un reloj, una tripulación",
   "ind.yacht.description":
-    "Charters, transfers, una tripulación que da la vuelta rápido. Atrium sostiene el día; la app, el briefing.",
+    "Charters, transfers, una tripulación que da la vuelta rápido. RackFolio sostiene el día; la app, el briefing.",
   "ind.yacht.suite": "Reservas, tiempo de tripulación, briefing en el teléfono del huésped.",
   "mod.desk.name": "El escritorio",
   "mod.desk.summary": "Llegar, quedarse, irse",
@@ -443,19 +443,19 @@ Object.assign(es, {
   "process.1.title": "Nos sentamos con cómo trabajan",
   "process.1.body":
     "Habitaciones o mesas, quién lava, cómo cobran, en qué web viven de verdad. Si está en un cuaderno, queremos el cuaderno.",
-  "process.2.title": "Cortamos Atrium a esa casa",
+  "process.2.title": "Cortamos RackFolio a esa casa",
   "process.2.body":
     "Su nombre, su idioma, sus roles, sus pagos. Escondemos lo que no operan. Agregamos esa pieza rara que no pueden soltar — y una app de huésped, si la quieren.",
   "process.3.title": "Se suscriben. Hospedamos. Nos quedamos.",
   "process.3.body":
-    "No decenas de miles por una instalación congelada. Una suscripción, servidores que alquilamos para que siga rápido, y actualizaciones a medida que Atrium mejora — incluidas.",
+    "No decenas de miles por una instalación congelada. Una suscripción, servidores que alquilamos para que siga rápido, y actualizaciones a medida que RackFolio mejora — incluidas.",
   "contact.fabi.role": "Cofundador · El software",
   "contact.fabi.bio":
-    "Arma Atrium y las apps de huésped. Habitaciones, mesas, roles, pagos, y eso que todavía hacen en papel.",
+    "Arma RackFolio y las apps de huésped. Habitaciones, mesas, roles, pagos, y eso que todavía hacen en papel.",
   "contact.matt.role": "Cofundador · La casa",
   "contact.matt.bio":
     "Se sienta con dueños hasta que el día a día es honesto. Hace que el build coincida con el escritorio, no con un pitch.",
-  "chip.0": "Necesitamos Atrium para nuestro hotel",
+  "chip.0": "Necesitamos RackFolio para nuestro hotel",
   "chip.1": "Queremos una app de huésped para la casa",
   "chip.2": "El tiempo del staff sigue en un cuaderno",
   "chip.3": "Cuéntennos cómo sería la suscripción",
@@ -472,9 +472,9 @@ Object.assign(es, {
   "sim.kicker": "En la tablet",
   "sim.title": "Unos toques de un turno real.",
   "sim.lede":
-    "Así ve el staff Atrium. Elijan un rincón del día y córranlo.",
+    "Así ve el staff RackFolio. Elijan un rincón del día y córranlo.",
   "sim.guest": "Ahora",
-  "demo.desk.place": "Atrium · Escritorio",
+  "demo.desk.place": "RackFolio · Escritorio",
   "demo.desk.tagline": "Una llegada un martes por la mañana",
   "demo.desk.guest": "Cama 12 · Piso 2",
   "demo.desk.checkin.title": "Check-in",
@@ -487,7 +487,7 @@ Object.assign(es, {
   "demo.desk.pay.body": "Cobrar el saldo por QR, o anotar efectivo en caja.",
   "demo.desk.pay.button": "Cobrar QR · $42",
   "demo.desk.pay.success": "Pago registrado. Saldo en cero. Recibo en la reserva.",
-  "demo.cleaning.place": "Atrium · Habitaciones",
+  "demo.cleaning.place": "RackFolio · Habitaciones",
   "demo.cleaning.tagline": "Tres salidas, una llegada a las 2",
   "demo.cleaning.guest": "Habitación 8 · Sucia",
   "demo.cleaning.mark.title": "Marcar limpia",
@@ -501,7 +501,7 @@ Object.assign(es, {
   "demo.cleaning.issue.button": "Marcar gotera en hab. 8",
   "demo.cleaning.issue.success":
     "Problema anotado para mantenimiento. La habitación sigue bloqueada hasta que se arregle.",
-  "demo.laundry.place": "Atrium · Lencería",
+  "demo.laundry.place": "RackFolio · Lencería",
   "demo.laundry.tagline": "Contar lo que salió del piso",
   "demo.laundry.guest": "Piso 2 · 18 afuera",
   "demo.laundry.count.title": "Conteo de toallas",
@@ -509,7 +509,7 @@ Object.assign(es, {
     "Dieciocho toallas afuera con huéspedes. Doce de vuelta en el lavado.",
   "demo.laundry.count.button": "Registrar 12 toallas en lavado",
   "demo.laundry.count.success": "Lavado empezado. Seis todavía con huéspedes. Sigue el planchado.",
-  "demo.staff.place": "Atrium · Tiempo",
+  "demo.staff.place": "RackFolio · Tiempo",
   "demo.staff.tagline": "Entrega a las 7",
   "demo.staff.guest": "María · Noche",
   "demo.staff.clock.title": "Fichar",
@@ -526,7 +526,7 @@ Object.assign(es, {
   "page.pricing.kicker": "Suscripción",
   "page.pricing.title": "Un precio para la casa. No una cuota de proyecto.",
   "page.pricing.lede":
-    "Una cantidad al mes. Atrium en el escritorio, apps en los teléfonos del equipo, y una app de huésped con su nombre. Ajustamos el software a la empresa antes de salir en vivo.",
+    "Una cantidad al mes. RackFolio en el escritorio, apps en los teléfonos del equipo, y una app de huésped con su nombre. Ajustamos el software a la empresa antes de salir en vivo.",
   "page.pricing.month": "al mes",
   "page.pricing.recommended": "Donde empieza la mayoría",
   "page.pricing.breakKicker": "En qué se va el precio",
@@ -547,7 +547,7 @@ Object.assign(es, {
   "price.item.host": "Servidores que alquilamos, y las actualizaciones",
   "price.break.fit.title": "Cortado a esa empresa",
   "price.break.fit.body":
-    "No es un sistema en blanco con nuestro nombre en la puerta. Atrium lleva su logo, sus habitaciones, sus roles y la forma en que ya cobran. Eso queda listo antes del primer turno.",
+    "No es un sistema en blanco con nuestro nombre en la puerta. RackFolio lleva su logo, sus habitaciones, sus roles y la forma en que ya cobran. Eso queda listo antes del primer turno.",
   "price.break.phones.title": "Los teléfonos que ya llevan",
   "price.break.phones.body":
     "Limpieza, mantenimiento y el gerente tienen la app. Quien limpia marca la habitación lista. Mantenimiento ve la llave rota. El gerente ve el día. Esos teléfonos van en el precio. No se compra un asiento por persona.",
@@ -556,19 +556,19 @@ Object.assign(es, {
     "El huésped hace check-in, pide toallas, lee la casa y reserva un tour sin llamar al escritorio. La app lleva su logo y su información, no los nuestros.",
   "price.break.host.title": "Servidores, para que el sábado siga rápido",
   "price.break.host.body":
-    "Alquilamos los servidores. El escritorio no se arrastra cuando la casa está llena, y las mejoras de Atrium entran en la misma suscripción.",
+    "Alquilamos los servidores. El escritorio no se arrastra cuando la casa está llena, y las mejoras de RackFolio entran en la misma suscripción.",
 } satisfies Partial<Record<MessageKey, string>>);
 
 Object.assign(pt, {
   "nav.app": "App",
-  "cta.software": "Ver Atrium",
+  "cta.software": "Ver RackFolio",
   "cta.download": "Baixar o app",
-  "chrome.native": "Atrium · Rápido de propósito",
+  "chrome.native": "RackFolio · Rápido de propósito",
   "company.tagline": "Software rápido. Cortado à casa.",
   "company.lede":
-    "O Atrium corre o balcão — hotéis, restaurantes, villas, iates. Também fazemos o app que o hóspede realmente abre. Vocês assinam. Alugamos os servidores para continuar rápido.",
+    "O RackFolio corre o balcão — hotéis, restaurantes, villas, iates. Também fazemos o app que o hóspede realmente abre. Vocês assinam. Alugamos os servidores para continuar rápido.",
   "company.slogan": "Feito para a casa. Não o contrário.",
-  "offer.ops.title": "Atrium",
+  "offer.ops.title": "RackFolio",
   "offer.apps.title": "Apps de hóspede que fazemos",
   "home.whoTitle": "De hotéis a restaurantes. Villas. Barcos. O mesmo motor.",
   "home.howTitle": "Assinam. Hospedamos. Continua vosso.",
@@ -581,14 +581,14 @@ Object.assign(pt, {
   "ind.restaurant.name": "Restaurantes",
   "ind.villa.name": "Villas e casas",
   "ind.yacht.name": "Iates e dias",
-  "process.2.title": "Cortamos o Atrium a essa casa",
+  "process.2.title": "Cortamos o RackFolio a essa casa",
   "process.3.title": "Assinam. Hospedamos. Ficamos.",
   "sim.title": "Alguns toques de um turno real.",
   "nav.pricing": "Preços",
   "cta.prices": "Ver preços",
   "page.pricing.kicker": "Assinatura",
   "page.pricing.title": "Um preço para a casa. Não uma taxa de projeto.",
-  "page.pricing.lede": "Um valor por mês. Atrium no balcão, apps nos telefones da equipe, e um app de hóspede com o nome de vocês. Ajustamos o software à empresa antes de ir ao ar.",
+  "page.pricing.lede": "Um valor por mês. RackFolio no balcão, apps nos telefones da equipe, e um app de hóspede com o nome de vocês. Ajustamos o software à empresa antes de ir ao ar.",
   "page.pricing.month": "por mês",
   "page.pricing.recommended": "Onde a maioria começa",
   "page.pricing.breakKicker": "No que o preço se vai",
@@ -607,25 +607,25 @@ Object.assign(pt, {
   "price.item.guest": "App do hóspede: toalhas, check-in, passeios",
   "price.item.host": "Servidores que alugamos, e as atualizações",
   "price.break.fit.title": "Cortado a essa empresa",
-  "price.break.fit.body": "Não é um sistema em branco com o nosso nome na porta. O Atrium leva o logo, os quartos, os papéis e a forma como já cobram. Isso fica pronto antes do primeiro turno.",
+  "price.break.fit.body": "Não é um sistema em branco com o nosso nome na porta. O RackFolio leva o logo, os quartos, os papéis e a forma como já cobram. Isso fica pronto antes do primeiro turno.",
   "price.break.phones.title": "Os telefones que já carregam",
   "price.break.phones.body": "Limpeza, manutenção e o gerente têm o app. Quem limpa marca o quarto pronto. A manutenção vê a torneira rota. O gerente vê o dia. Esses telefones entram no preço. Não se compra um lugar por pessoa.",
   "price.break.guest.title": "Um app de hóspede com o nome de vocês",
   "price.break.guest.body": "O hóspede faz check-in, pede toalhas, lê a casa e reserva um passeio sem ligar para o balcão. O app leva o logo e a informação de vocês, não os nossos.",
   "price.break.host.title": "Servidores, para o sábado continuar rápido",
-  "price.break.host.body": "Alugamos os servidores. O balcão não se arrasta quando a casa está cheia, e as melhorias do Atrium entram na mesma assinatura.",
+  "price.break.host.body": "Alugamos os servidores. O balcão não se arrasta quando a casa está cheia, e as melhorias do RackFolio entram na mesma assinatura.",
 } satisfies Partial<Record<MessageKey, string>>);
 
 Object.assign(fr, {
   "nav.app": "App",
-  "cta.software": "Voir Atrium",
+  "cta.software": "Voir RackFolio",
   "cta.download": "Télécharger l’app",
-  "chrome.native": "Atrium · Rapide exprès",
+  "chrome.native": "RackFolio · Rapide exprès",
   "company.tagline": "Un logiciel rapide. Taillé à la maison.",
   "company.lede":
-    "Atrium tient le desk — hôtels, restaurants, villas, yachts. On construit aussi l’app que les gens ouvrent vraiment. Vous vous abonnez. On loue les serveurs pour que ça reste vif.",
+    "RackFolio tient le desk — hôtels, restaurants, villas, yachts. On construit aussi l’app que les gens ouvrent vraiment. Vous vous abonnez. On loue les serveurs pour que ça reste vif.",
   "company.slogan": "Fait pour la maison. Pas l’inverse.",
-  "offer.ops.title": "Atrium",
+  "offer.ops.title": "RackFolio",
   "home.whoTitle": "Des hôtels aux restaurants. Villas. Bateaux. Le même moteur.",
   "home.howTitle": "Vous vous abonnez. On héberge. Ça reste à vous.",
   "page.platform.title": "Un moteur. Taillé au métier.",
@@ -637,14 +637,14 @@ Object.assign(fr, {
   "ind.restaurant.name": "Restaurants",
   "ind.villa.name": "Villas et maisons",
   "ind.yacht.name": "Yachts et journées",
-  "process.2.title": "On taille Atrium à cette maison",
+  "process.2.title": "On taille RackFolio à cette maison",
   "process.3.title": "Vous vous abonnez. On héberge. On reste.",
   "sim.title": "Quelques tapotements d’un vrai service.",
   "nav.pricing": "Tarifs",
   "cta.prices": "Voir les tarifs",
   "page.pricing.kicker": "Abonnement",
   "page.pricing.title": "Un prix pour la maison. Pas des frais de projet.",
-  "page.pricing.lede": "Un montant par mois. Atrium au desk, les apps sur les téléphones de l’équipe, et une app invité à votre nom. On ajuste le logiciel à l’entreprise avant la mise en service.",
+  "page.pricing.lede": "Un montant par mois. RackFolio au desk, les apps sur les téléphones de l’équipe, et une app invité à votre nom. On ajuste le logiciel à l’entreprise avant la mise en service.",
   "page.pricing.month": "par mois",
   "page.pricing.recommended": "Là où la plupart commencent",
   "page.pricing.breakKicker": "Ce que paie l’abonnement",
@@ -663,25 +663,25 @@ Object.assign(fr, {
   "price.item.guest": "App invité : serviettes, arrivée, excursions",
   "price.item.host": "Les serveurs qu’on loue, et les mises à jour",
   "price.break.fit.title": "Taillé pour cette maison",
-  "price.break.fit.body": "Ce n’est pas un système vide avec notre nom sur la porte. Atrium porte votre logo, vos chambres, vos rôles, et la façon dont vous encaissez déjà. C’est en place avant le premier service.",
+  "price.break.fit.body": "Ce n’est pas un système vide avec notre nom sur la porte. RackFolio porte votre logo, vos chambres, vos rôles, et la façon dont vous encaissez déjà. C’est en place avant le premier service.",
   "price.break.phones.title": "Les téléphones qu’ils ont déjà",
   "price.break.phones.body": "Le ménage, la maintenance et le responsable ont l’app. On marque la chambre prête. La maintenance voit le robinet. Le responsable voit la journée. Ces téléphones sont dans le prix. Pas de siège à acheter par personne.",
   "price.break.guest.title": "Une app invité à votre nom",
   "price.break.guest.body": "L’invité arrive, demande des serviettes, lit la maison et réserve une excursion sans appeler le desk. L’app porte votre logo et vos informations, pas les nôtres.",
   "price.break.host.title": "Des serveurs, pour que le samedi reste vif",
-  "price.break.host.body": "On loue les serveurs. Le desk ne rame pas quand la maison est pleine, et les améliorations d’Atrium restent dans le même abonnement.",
+  "price.break.host.body": "On loue les serveurs. Le desk ne rame pas quand la maison est pleine, et les améliorations de RackFolio restent dans le même abonnement.",
 } satisfies Partial<Record<MessageKey, string>>);
 
 Object.assign(de, {
   "nav.app": "App",
-  "cta.software": "Atrium ansehen",
+  "cta.software": "RackFolio ansehen",
   "cta.download": "App herunterladen",
-  "chrome.native": "Atrium · Absichtlich schnell",
+  "chrome.native": "RackFolio · Absichtlich schnell",
   "company.tagline": "Schnelle Software. Aufs Haus geschnitten.",
   "company.lede":
-    "Atrium führt den Desk — Hotels, Restaurants, Villen, Yachten. Wir bauen auch die Gäste-App, die Leute wirklich öffnen. Ihr abonniert. Wir mieten die Server, damit es schnell bleibt.",
+    "RackFolio führt den Desk — Hotels, Restaurants, Villen, Yachten. Wir bauen auch die Gäste-App, die Leute wirklich öffnen. Ihr abonniert. Wir mieten die Server, damit es schnell bleibt.",
   "company.slogan": "Fürs Haus gebaut. Nicht umgekehrt.",
-  "offer.ops.title": "Atrium",
+  "offer.ops.title": "RackFolio",
   "home.whoTitle": "Hotels bis Restaurants. Villen. Boote. Dieselbe Engine.",
   "home.howTitle": "Abonnieren. Wir hosten. Es bleibt eures.",
   "page.platform.title": "Eine Engine. Aufs Geschäft geschnitten.",
@@ -693,14 +693,14 @@ Object.assign(de, {
   "ind.restaurant.name": "Restaurants",
   "ind.villa.name": "Villen & Häuser",
   "ind.yacht.name": "Yachten & Tage",
-  "process.2.title": "Wir schneiden Atrium aufs Haus",
+  "process.2.title": "Wir schneiden RackFolio aufs Haus",
   "process.3.title": "Ihr abonniert. Wir hosten. Wir bleiben.",
   "sim.title": "Ein paar Tipps aus einer echten Schicht.",
   "nav.pricing": "Preise",
   "cta.prices": "Preise ansehen",
   "page.pricing.kicker": "Abo",
   "page.pricing.title": "Ein Preis fürs Haus. Keine Projektpauschale.",
-  "page.pricing.lede": "Ein Betrag im Monat. Atrium am Desk, Apps auf den Telefonen des Teams, und eine Gäste-App mit Ihrem Namen. Wir schneiden die Software auf das Haus, bevor es losgeht.",
+  "page.pricing.lede": "Ein Betrag im Monat. RackFolio am Desk, Apps auf den Telefonen des Teams, und eine Gäste-App mit Ihrem Namen. Wir schneiden die Software auf das Haus, bevor es losgeht.",
   "page.pricing.month": "im Monat",
   "page.pricing.recommended": "Wo die meisten anfangen",
   "page.pricing.breakKicker": "Wofür der Preis ist",
@@ -719,25 +719,25 @@ Object.assign(de, {
   "price.item.guest": "Gäste-App: Handtücher, Check-in, Touren",
   "price.item.host": "Server, die wir mieten, und die Updates",
   "price.break.fit.title": "Auf dieses Haus geschnitten",
-  "price.break.fit.body": "Kein leeres System mit unserem Namen an der Tür. Atrium trägt Ihr Logo, Ihre Zimmer, Ihre Rollen und die Art, wie Sie schon kassieren. Das steht, bevor die erste Schicht beginnt.",
+  "price.break.fit.body": "Kein leeres System mit unserem Namen an der Tür. RackFolio trägt Ihr Logo, Ihre Zimmer, Ihre Rollen und die Art, wie Sie schon kassieren. Das steht, bevor die erste Schicht beginnt.",
   "price.break.phones.title": "Die Telefone, die sie schon haben",
   "price.break.phones.body": "Reinigung, Technik und die Leitung bekommen die App. Das Zimmer wird fertig gemeldet. Die Technik sieht den tropfenden Hahn. Die Leitung sieht den Tag. Diese Telefone sind im Preis. Kein Platz pro Person.",
   "price.break.guest.title": "Eine Gäste-App in Ihrem Namen",
   "price.break.guest.body": "Der Gast checkt ein, bestellt Handtücher, liest das Haus und bucht eine Tour, ohne anzurufen. Die App trägt Ihr Logo und Ihre Angaben, nicht unsere.",
   "price.break.host.title": "Server, damit der Samstag schnell bleibt",
-  "price.break.host.body": "Wir mieten die Server. Der Desk wird nicht zäh, wenn das Haus voll ist, und die Verbesserungen an Atrium bleiben im selben Abo.",
+  "price.break.host.body": "Wir mieten die Server. Der Desk wird nicht zäh, wenn das Haus voll ist, und die Verbesserungen an RackFolio bleiben im selben Abo.",
 } satisfies Partial<Record<MessageKey, string>>);
 
 Object.assign(zh, {
   "nav.app": "应用",
-  "cta.software": "了解 Atrium",
+  "cta.software": "了解 RackFolio",
   "cta.download": "下载应用",
-  "chrome.native": "Atrium · 故意要快",
+  "chrome.native": "RackFolio · 故意要快",
   "company.tagline": "快的软件。按这家店来裁。",
   "company.lede":
-    "Atrium 管前台——酒店、餐厅、别墅、游艇。我们也做客人真会打开的应用。你们订阅。我们租服务器，好一直快。",
+    "RackFolio 管前台——酒店、餐厅、别墅、游艇。我们也做客人真会打开的应用。你们订阅。我们租服务器，好一直快。",
   "company.slogan": "为这家店而做，而不是反过来。",
-  "offer.ops.title": "Atrium",
+  "offer.ops.title": "RackFolio",
   "home.whoTitle": "从酒店到餐厅。别墅。船。同一套引擎。",
   "home.howTitle": "订阅。我们托管。它还是你们的。",
   "page.platform.title": "一套引擎。按生意裁。",
@@ -749,7 +749,7 @@ Object.assign(zh, {
   "ind.restaurant.name": "餐厅",
   "ind.villa.name": "别墅与住宅",
   "ind.yacht.name": "游艇与日游",
-  "process.2.title": "把 Atrium 裁到这家店",
+  "process.2.title": "把 RackFolio 裁到这家店",
   "process.3.title": "你们订阅。我们托管。我们留下。",
   "sim.title": "真实班次里的几下点击。",
   "nav.pricing": "价格",
@@ -757,7 +757,7 @@ Object.assign(zh, {
   "page.pricing.kicker": "订阅",
   "page.pricing.title": "给这家店的价格。不是一笔项目费。",
   "page.pricing.lede":
-    "每个月一笔。前台用 Atrium，员工手机上有应用，客人的应用印着你们的名字。上线之前，我们按这家公司来改。",
+    "每个月一笔。前台用 RackFolio，员工手机上有应用，客人的应用印着你们的名字。上线之前，我们按这家公司来改。",
   "page.pricing.month": "每月",
   "page.pricing.recommended": "大多数店从这里开始",
   "page.pricing.breakKicker": "这笔钱买到什么",
@@ -778,7 +778,7 @@ Object.assign(zh, {
   "price.item.host": "我们租的服务器，以及更新",
   "price.break.fit.title": "按这家公司来做",
   "price.break.fit.body":
-    "不是一个门口写着我们名字的空系统。Atrium 带你们的标志、房间、岗位，以及你们本来的收款方式。第一班开始之前就改好。",
+    "不是一个门口写着我们名字的空系统。RackFolio 带你们的标志、房间、岗位，以及你们本来的收款方式。第一班开始之前就改好。",
   "price.break.phones.title": "他们已经带着的手机",
   "price.break.phones.body":
     "清洁、维修和经理各自有应用。清洁把房间标成已好。维修看到坏掉的龙头。经理看到这一天。这些手机包含在价格里。不用按人头再买席位。",
@@ -787,7 +787,7 @@ Object.assign(zh, {
     "客人办理入住、要毛巾、看店里的说明、订行程，不用打电话到前台。应用用你们的标志和资料，不是我们的。",
   "price.break.host.title": "服务器，好让周六仍然快",
   "price.break.host.body":
-    "服务器是我们租的。店满的时候前台也不会拖，Atrium 的改进算在同一份订阅里。",
+    "服务器是我们租的。店满的时候前台也不会拖，RackFolio 的改进算在同一份订阅里。",
 } satisfies Partial<Record<MessageKey, string>>);
 
 export const messages: Record<

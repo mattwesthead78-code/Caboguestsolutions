@@ -3,14 +3,14 @@ export const company = {
   short: "CaboGuest",
   location: "Cabo San Lucas",
   region: "Los Cabos, Mexico",
-  product: "Atrium",
+  product: "RackFolio",
   guestApp: "CaboGuest",
 } as const;
 
 export const androidApk = {
-  href: "/downloads/CaboGuestSolutions_v3.apk",
-  fileName: "CaboGuestSolutions_v3.apk",
-  version: "3.0",
+  href: "/downloads/RackFolio.apk",
+  fileName: "RackFolio.apk",
+  version: "1.5",
 } as const;
 
 export const contacts = [
@@ -20,7 +20,7 @@ export const contacts = [
     role: "Co-Founder · Technology",
     phone: "+591 64520607",
     wa: "https://wa.me/59164520607",
-    bio: "Builds Atrium and the guest apps. Fabi shapes the software for each house — rooms, tables, roles, payments, and the awkward thing you still do on paper.",
+    bio: "Builds RackFolio and the guest apps. Fabi shapes the software for each house — rooms, tables, roles, payments, and the awkward thing you still do on paper.",
   },
   {
     id: "matt",
@@ -53,7 +53,7 @@ export const industries: Industry[] = [
     short: "Hotels",
     kicker: "Rooms, beds, a real desk",
     description:
-      "Hostels, inns, boutique hotels. Atrium is the board: who's in, what's dirty, who got paid. Not a 400-key palace system.",
+      "Hostels, inns, boutique hotels. RackFolio is the board: who's in, what's dirty, who got paid. Not a 400-key palace system.",
     image: "/images/hotel.jpg",
     imageAlt: "Hotel corridor opening toward the sea in Los Cabos",
     suite: "Room status, check-in, housekeeping, night audit.",
@@ -89,7 +89,7 @@ export const industries: Industry[] = [
     short: "Yachts",
     kicker: "A boat, a clock, a crew",
     description:
-      "Charters, transfers, a crew that turns around fast. Atrium holds the day; the guest app holds the briefing, the weather, the next stop.",
+      "Charters, transfers, a crew that turns around fast. RackFolio holds the day; the guest app holds the briefing, the weather, the next stop.",
     image: "/images/yacht.jpg",
     imageAlt: "A day yacht off the Cabo coast",
     suite: "Bookings, crew time, guest briefing on their phone.",
@@ -193,7 +193,7 @@ export const demos: DemoPreset[] = [
   {
     id: "desk",
     name: "Front desk",
-    place: "Atrium · Desk",
+    place: "RackFolio · Desk",
     tagline: "A Tuesday morning arrival",
     guest: "Bed 12 · Floor 2",
     actions: [
@@ -216,7 +216,7 @@ export const demos: DemoPreset[] = [
   {
     id: "cleaning",
     name: "Housekeeping",
-    place: "Atrium · Rooms",
+    place: "RackFolio · Rooms",
     tagline: "Three departures, one arrival at 2",
     guest: "Room 8 · Dirty",
     actions: [
@@ -239,7 +239,7 @@ export const demos: DemoPreset[] = [
   {
     id: "laundry",
     name: "Laundry",
-    place: "Atrium · Linen",
+    place: "RackFolio · Linen",
     tagline: "Count what left the floor",
     guest: "Floor 2 · 18 out",
     actions: [
@@ -255,7 +255,7 @@ export const demos: DemoPreset[] = [
   {
     id: "staff",
     name: "Staff",
-    place: "Atrium · Time",
+    place: "RackFolio · Time",
     tagline: "Handover at 7",
     guest: "Maria · Night",
     actions: [
@@ -285,13 +285,13 @@ export const process = [
   },
   {
     number: "02",
-    title: "We cut Atrium to that house",
+    title: "We cut RackFolio to that house",
     body: "Your name, your language, your roles, your payments. We hide what you don't run. We add the awkward piece you can't drop — and a guest app, if you want one.",
   },
   {
     number: "03",
     title: "You subscribe. We host. We stay.",
-    body: "No tens of thousands for a frozen install. A subscription, servers we rent so it stays fast, and updates as Atrium improves — included.",
+    body: "No tens of thousands for a frozen install. A subscription, servers we rent so it stays fast, and updates as RackFolio improves — included.",
   },
 ] as const;
 

@@ -6,7 +6,7 @@ import appCss from "../styles.css?url";
 
 const APP_NAME = "CaboGuest Solutions";
 const APP_DESC =
-  "Atrium and guest apps for hotels, restaurants, villas, and yachts. Subscription software, hosted for speed, cut to each house.";
+  "RackFolio and guest apps for hotels, restaurants, villas, and yachts. Subscription software, hosted for speed, cut to each house.";
 
 export const Route = createRootRoute({
   head: () => ({
