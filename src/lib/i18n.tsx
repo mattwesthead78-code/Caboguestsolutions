@@ -110,13 +110,9 @@ export function Flag({
     >
       {locale === "en" ? (
         <>
-          <rect width="21" height="15" fill="#B22234" />
-          <path
-            d="M0 1.7h21M0 4.3h21M0 6.9h21M0 9.5h21M0 12.1h21"
-            stroke="#fff"
-            strokeWidth="1.15"
-          />
-          <rect width="9" height="8" fill="#3C3B6E" />
+          <rect width="21" height="15" fill="#fff" />
+          <rect x="9" width="3" height="15" fill="#CE1126" />
+          <rect y="6" width="21" height="3" fill="#CE1126" />
         </>
       ) : null}
       {locale === "es" ? (

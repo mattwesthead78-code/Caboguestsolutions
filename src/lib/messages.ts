@@ -1,6 +1,7 @@
 export const en = {
   "nav.home": "Home",
   "nav.platform": "Software",
+  "nav.demo": "Demo",
   "nav.pricing": "Prices",
   "nav.app": "App",
   "nav.work": "Walkthrough",
@@ -274,6 +275,20 @@ export const en = {
   "price.break.host.title": "Hosting, so Saturday stays quick",
   "price.break.host.body":
     "We rent the servers. The desk does not crawl when the house is full, and the improvements to RackFolio come with the same subscription.",
+  "page.demo.kicker": "The film",
+  "page.demo.title": "Watch RackFolio run a stay",
+  "page.demo.lede":
+    "The short film is on this page. No narration. It follows a guest from the desk, through the clean and the linen, to the night audit. The full demonstration is on YouTube.",
+  "page.demo.short": "Short demo",
+  "page.demo.full": "Full demo",
+  "page.demo.fullBody":
+    "The longer film walks the same system with a spoken explanation. Front desk, housekeeping, inventory, staff, and the close of day.",
+  "page.demo.youtube": "Watch the full demo on YouTube",
+  "home.demoKicker": "Seven minutes",
+  "home.demoTitle": "See the desk work",
+  "home.demoBody":
+    "A guest arrives, pays, and leaves. The room goes to cleaning. Linen, stock, the rota, and the night audit are in the same film.",
+  "home.demoLink": "Full demo on YouTube",
 } as const;
 
 export type MessageKey = keyof typeof en;
@@ -292,6 +307,21 @@ Object.assign(es, {
   "nav.about": "Nosotros",
   "nav.contact": "Contacto",
   "nav.pricing": "Precios",
+  "nav.demo": "Demo",
+  "page.demo.kicker": "La película",
+  "page.demo.title": "Vea a RackFolio operar una estadía",
+  "page.demo.lede":
+    "La película corta está en esta página. Sin narración. Sigue a un huésped desde recepción, pasa por la limpieza y la ropa blanca, y llega a la auditoría nocturna. La demostración completa está en YouTube.",
+  "page.demo.short": "Demo corta",
+  "page.demo.full": "Demo completa",
+  "page.demo.fullBody":
+    "La película larga recorre el mismo sistema con explicación hablada. Recepción, limpieza, inventario, personal y el cierre del día.",
+  "page.demo.youtube": "Ver la demo completa en YouTube",
+  "home.demoKicker": "Siete minutos",
+  "home.demoTitle": "Vea trabajar la recepción",
+  "home.demoBody":
+    "Un huésped llega, paga y se va. La habitación pasa a limpieza. La ropa blanca, el inventario, los turnos y la auditoría nocturna están en la misma película.",
+  "home.demoLink": "Demo completa en YouTube",
   "cta.talk": "Hablemos",
   "cta.prices": "Ver precios",
   "cta.software": "Ver RackFolio",

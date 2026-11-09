@@ -92,6 +92,42 @@ function Home() {
       </section>
 
       <section className="border-t border-border">
+        <div className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-24">
+          <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
+            {t("home.demoKicker")}
+          </p>
+          <h2 className="mt-3 max-w-3xl font-display text-4xl font-medium tracking-tight md:text-5xl">
+            {t("home.demoTitle")}
+          </h2>
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-muted">
+            {t("home.demoBody")}
+          </p>
+          <div className="mt-8 overflow-hidden rounded-[1.5rem] bg-black shadow-[0_0_0_1px_var(--color-border)]">
+            <video
+              className="aspect-video w-full"
+              controls
+              playsInline
+              preload="metadata"
+              poster="/videos/rackfolio-demo.jpg"
+            >
+              <source src="/videos/rackfolio-demo.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="mt-5 flex flex-wrap gap-5 text-sm">
+            <Link to="/demo" className="inline-flex items-center gap-2 text-fg">
+              {t("nav.demo")} <ArrowRight className="size-4" />
+            </Link>
+            <a
+              href="https://www.youtube.com/watch?v=G1ReKwM7EPs"
+              className="text-fg underline decoration-accent underline-offset-4"
+            >
+              {t("home.demoLink")}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-border">
         <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-24">
           <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-accent">
             {t("home.whoKicker")}
